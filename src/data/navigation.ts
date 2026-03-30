@@ -1,0 +1,91 @@
+export interface NavItem {
+  label: string;
+  href: string;
+  children?: { label: string; href: string }[];
+}
+
+export const mainNav: NavItem[] = [
+  {
+    label: "Itineraries",
+    href: "/1-day-sintra-itinerary",
+    children: [
+      { label: "1-Day Itinerary", href: "/1-day-sintra-itinerary" },
+      { label: "2-Day Itinerary", href: "/2-day-sintra-itinerary" },
+      { label: "3-Day Itinerary", href: "/3-day-sintra-itinerary" },
+      { label: "Sintra + Cascais", href: "/sintra-cascais-itinerary" },
+    ],
+  },
+  {
+    label: "Palaces",
+    href: "/guides/which-sintra-palaces-to-visit",
+    children: [
+      { label: "Which Palaces to Visit", href: "/guides/which-sintra-palaces-to-visit" },
+      { label: "Pena Palace", href: "/guides/pena-palace-guide" },
+      { label: "Quinta da Regaleira", href: "/guides/quinta-da-regaleira-guide" },
+      { label: "Moorish Castle", href: "/guides/moorish-castle-guide" },
+      { label: "Monserrate Palace", href: "/guides/monserrate-palace-guide" },
+      { label: "National Palace", href: "/guides/national-palace-guide" },
+    ],
+  },
+  {
+    label: "Guides",
+    href: "/things-to-do-in-sintra",
+    children: [
+      { label: "Things to Do", href: "/things-to-do-in-sintra" },
+      { label: "Getting to Sintra", href: "/getting-to-sintra-from-lisbon" },
+      { label: "Tickets & Passes", href: "/sintra-tickets-and-passes" },
+      { label: "Best Time to Visit", href: "/best-time-to-visit-sintra" },
+      { label: "Where to Eat", href: "/where-to-eat-in-sintra" },
+      { label: "Sintra on a Budget", href: "/sintra-on-a-budget" },
+      { label: "Sintra with Kids", href: "/sintra-with-kids" },
+      { label: "Cabo da Roca", href: "/cabo-da-roca-guide" },
+      { label: "Photography Guide", href: "/sintra-photography-guide" },
+      { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip" },
+      { label: "Walking Routes", href: "/sintra-walking-routes" },
+      { label: "Is Sintra Worth It?", href: "/is-sintra-worth-visiting" },
+      { label: "Travel Tips", href: "/sintra-travel-tips" },
+      { label: "Sintra vs Cascais", href: "/sintra-vs-cascais" },
+      { label: "Sintra in Winter", href: "/sintra-in-winter" },
+      { label: "Initiation Well", href: "/quinta-da-regaleira-initiation-well" },
+      { label: "Local Food Guide", href: "/sintra-local-food-guide" },
+      { label: "Rainy Day Guide", href: "/sintra-rainy-day-guide" },
+    ],
+  },
+];
+
+export const footerLinks = {
+  itineraries: [
+    { label: "1-Day Sintra Itinerary", href: "/1-day-sintra-itinerary" },
+    { label: "2-Day Sintra Itinerary", href: "/2-day-sintra-itinerary" },
+    { label: "3-Day Sintra Itinerary", href: "/3-day-sintra-itinerary" },
+    { label: "Sintra + Cascais Itinerary", href: "/sintra-cascais-itinerary" },
+  ],
+  palaces: [
+    { label: "Which Palaces to Visit", href: "/guides/which-sintra-palaces-to-visit" },
+    { label: "Pena Palace Guide", href: "/guides/pena-palace-guide" },
+    { label: "Quinta da Regaleira Guide", href: "/guides/quinta-da-regaleira-guide" },
+    { label: "Moorish Castle Guide", href: "/guides/moorish-castle-guide" },
+    { label: "Monserrate Palace Guide", href: "/guides/monserrate-palace-guide" },
+    { label: "National Palace Guide", href: "/guides/national-palace-guide" },
+  ],
+  guides: [
+    { label: "Things to Do in Sintra", href: "/things-to-do-in-sintra" },
+    { label: "Getting to Sintra from Lisbon", href: "/getting-to-sintra-from-lisbon" },
+    { label: "Tickets & Passes", href: "/sintra-tickets-and-passes" },
+    { label: "Best Time to Visit", href: "/best-time-to-visit-sintra" },
+    { label: "Where to Eat", href: "/where-to-eat-in-sintra" },
+    { label: "Sintra on a Budget", href: "/sintra-on-a-budget" },
+    { label: "Sintra with Kids", href: "/sintra-with-kids" },
+    { label: "Cabo da Roca Guide", href: "/cabo-da-roca-guide" },
+    { label: "Photography Guide", href: "/sintra-photography-guide" },
+    { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip" },
+    { label: "Walking Routes", href: "/sintra-walking-routes" },
+    { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting" },
+    { label: "Travel Tips", href: "/sintra-travel-tips" },
+    { label: "Sintra vs Cascais", href: "/sintra-vs-cascais" },
+    { label: "Sintra in Winter", href: "/sintra-in-winter" },
+    { label: "Initiation Well Guide", href: "/quinta-da-regaleira-initiation-well" },
+    { label: "Local Food Guide", href: "/sintra-local-food-guide" },
+    { label: "Rainy Day Guide", href: "/sintra-rainy-day-guide" },
+  ],
+};

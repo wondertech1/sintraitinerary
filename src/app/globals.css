@@ -1,26 +1,185 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* ── Névoa (Mist) — Primary blue-grey ── */
+  --color-nevoa-900: #3D4A56;
+  --color-nevoa-800: #4F5E6B;
+  --color-nevoa-700: #627280;
+  --color-nevoa-600: #6E8090;
+  --color-nevoa-500: #7B8FA1;
+  --color-nevoa-400: #95A5B4;
+  --color-nevoa-300: #AFBCC7;
+  --color-nevoa-200: #C9D3DB;
+  --color-nevoa-100: #E3E9ED;
+  --color-nevoa-50: #F1F4F6;
+
+  /* ── Musgo (Moss) — Secondary green ── */
+  --color-musgo-900: #1E2E1A;
+  --color-musgo-800: #2D4226;
+  --color-musgo-700: #3A5533;
+  --color-musgo-600: #4A6741;
+  --color-musgo-500: #5A7A50;
+  --color-musgo-400: #74956A;
+  --color-musgo-300: #92B088;
+  --color-musgo-200: #B5CCAE;
+  --color-musgo-100: #D6E5D2;
+  --color-musgo-50: #ECF2EA;
+
+  /* ── Calcário (Limestone) — Tertiary warm stone ── */
+  --color-calcario-900: #5C534A;
+  --color-calcario-800: #7A6F63;
+  --color-calcario-700: #978A7C;
+  --color-calcario-600: #AD9F92;
+  --color-calcario-500: #C0B3A6;
+  --color-calcario-400: #D4CBC0;
+  --color-calcario-300: #E0D9D0;
+  --color-calcario-200: #ECE7E0;
+  --color-calcario-100: #F4F1EC;
+  --color-calcario-50: #F9F7F5;
+
+  /* ── Ferrugem (Iron/Rust) — Accent warm brown ── */
+  --color-ferrugem-900: #3A2318;
+  --color-ferrugem-800: #52331F;
+  --color-ferrugem-700: #6A3E2B;
+  --color-ferrugem-600: #7A4B3A;
+  --color-ferrugem-500: #8E5A47;
+  --color-ferrugem-400: #A47462;
+  --color-ferrugem-300: #BA9282;
+  --color-ferrugem-200: #D4B8AC;
+  --color-ferrugem-100: #ECDDD6;
+  --color-ferrugem-50: #F6EEEA;
+
+  /* ── Palácio (Palace Gold) — Gold accent ── */
+  --color-palacio-900: #5E4D16;
+  --color-palacio-800: #7D6720;
+  --color-palacio-700: #9C8128;
+  --color-palacio-600: #B09130;
+  --color-palacio-500: #C4A035;
+  --color-palacio-400: #D1B454;
+  --color-palacio-300: #DDC87A;
+  --color-palacio-200: #E9DBA4;
+  --color-palacio-100: #F3EDCE;
+  --color-palacio-50: #F9F6E8;
+
+  /* ── Nevoeiro (Fog) — Background ── */
+  --color-nevoeiro: #F4F1EC;
+  --color-nevoeiro-dark: #EBE6DE;
+
+  /* ── Granito (Granite) — Text ── */
+  --color-granito: #3B3B3B;
+  --color-granito-light: #5A5A5A;
+
+  /* ── Semantic mapping ── */
+  --color-background: var(--color-nevoeiro);
+  --color-foreground: var(--color-granito);
+
+  /* ── Font families ── */
+  --font-display: var(--font-spectral);
+  --font-body: var(--font-alegreya-sans);
+  --font-ui: var(--font-space-grotesk);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #F4F1EC;
+  --foreground: #3B3B3B;
 }
 
+/* ── Base styles ── */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-nevoeiro-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-nevoa-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-nevoa-400);
+}
+
+/* ── Fog background utility ── */
+.fog-bg {
+  background:
+    radial-gradient(ellipse 600px 400px at 20% 30%, var(--color-nevoa-100), transparent),
+    radial-gradient(ellipse 500px 350px at 80% 60%, var(--color-calcario-100), transparent),
+    radial-gradient(ellipse 700px 300px at 50% 80%, var(--color-nevoa-50), transparent);
+}
+
+/* ── Contour line background ── */
+.contour-bg {
+  background-image:
+    repeating-linear-gradient(
+      170deg,
+      transparent,
+      transparent 40px,
+      var(--color-nevoa-200) 40px,
+      var(--color-nevoa-200) 41px
+    );
+  opacity: 0.04;
+}
+
+/* ── Specimen card border ── */
+.specimen-border {
+  border: 1px solid var(--color-calcario-400);
+  border-radius: 2px;
+}
+
+/* ── Keyframe animations ── */
+@keyframes fog-drift {
+  0% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(30px) translateY(-10px); }
+  50% { transform: translateX(-20px) translateY(5px); }
+  75% { transform: translateX(15px) translateY(-5px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes fog-drift-slow {
+  0% { transform: translateX(0) translateY(0); }
+  33% { transform: translateX(-40px) translateY(8px); }
+  66% { transform: translateX(25px) translateY(-12px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes fog-drift-reverse {
+  0% { transform: translateX(0) translateY(0); }
+  33% { transform: translateX(35px) translateY(6px); }
+  66% { transform: translateX(-30px) translateY(-8px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes contour-draw {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes compass-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 0.6; }
+}
+
+/* ── Selection color ── */
+::selection {
+  background: var(--color-palacio-200);
+  color: var(--color-granito);
+}
+
+/* ── Scrollbar hide utility ── */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
