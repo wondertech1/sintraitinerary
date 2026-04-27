@@ -22,7 +22,7 @@ import {
 export const metadata: Metadata = {
   title: "Sintra Travel Tips (2026) — 35+ Essential Tips from Local Experts",
   description:
-    "The complete collection of Sintra travel tips: palace strategy, money-saving tricks, food picks, transport hacks, and family advice. Everything in one place.",
+    "35+ Sintra tips that most visitors only learn the hard way. Palace strategy, queue-beating tricks, budget hacks, food picks, and transport shortcuts — all in one place.",
   alternates: {
     canonical: "https://sintraitinerary.com/sintra-travel-tips",
   },
@@ -55,7 +55,7 @@ export default function TravelTipsPage() {
         category="Essential Reading"
         title="Sintra Travel Tips"
         subtitle="35+ tips distilled from every guide on this site, tested across dozens of our own visits. The cheat sheet for a perfect Sintra visit."
-        lastVerified="March 2026"
+        lastVerified="April 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -152,7 +152,7 @@ export default function TravelTipsPage() {
         </ScrollReveal>
 
         <RelatedGuides links={[
-          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Honest pros, cons, and verdict" },
+          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Real pros, cons, and verdict" },
           { label: "Sintra vs Cascais", href: "/sintra-vs-cascais", description: "Compare the two day trips" },
           { label: "Sintra in Winter", href: "/sintra-in-winter", description: "Why off-season is otherworldly" },
           { label: "Cabo da Roca", href: "/cabo-da-roca-guide", description: "Europe's westernmost point" },

@@ -7,7 +7,7 @@ export function websiteSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "Plan your perfect Sintra day trip. Honest itineraries, real prices, realistic timing.",
+      "Plan your perfect Sintra day trip. Tested itineraries, real prices, realistic timing.",
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,

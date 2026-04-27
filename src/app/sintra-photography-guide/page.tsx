@@ -72,8 +72,8 @@ export default function PhotographyPage() {
       <GuideHero
         category="Photography Guide"
         title="Sintra Photography Guide"
-        subtitle="The 8 best photo spots ranked, with the exact timing and gear to capture each one. We spent three separate visits dialing in these recommendations."
-        lastVerified="March 2026"
+        subtitle="The 8 best photo spots ranked, with the exact timing and gear to capture each one. We at Sintra Itinerary spent three separate visits dialing in these recommendations."
+        lastVerified="January 2026"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Guides", href: "/things-to-do-in-sintra" },

@@ -62,7 +62,7 @@ export default function Image() {
               lineHeight: 1.4,
             }}
           >
-            Honest day trip guides from Lisbon — real prices, realistic timing, tested routes
+            Real day trip guides from Lisbon — real prices, realistic timing, tested routes
           </div>
         </div>
         <div

@@ -88,7 +88,7 @@ export const moneySavingTips: MoneySavingTip[] = [
   },
   {
     category: "transport",
-    tip: "Walk between Pena Palace and Moorish Castle (15 min downhill) instead of taking bus 434 back and forth. The trail through the forest is beautiful.",
+    tip: "Walk between Pena Palace and Moorish Castle (20-25 min gate-to-gate downhill) instead of taking bus 434 back and forth. The trail through the forest is beautiful.",
     saving: "Free (already on the bus 434 route)",
   },
   {
@@ -125,6 +125,11 @@ export const moneySavingTips: MoneySavingTip[] = [
     category: "food",
     tip: "Pack water and snacks from Lisbon. Water bottles in Sintra's tourist areas are €2-3 vs €0.50 at a Lisbon supermarket.",
     saving: "€3-5",
+  },
+  {
+    category: "food",
+    tip: "Stock up at the Pingo Doce supermarket near Sintra station or the minimarkets in São Pedro de Penaferrim. Much cheaper than buying snacks at palace cafés.",
+    saving: "€5-10 vs palace café prices",
   },
   {
     category: "accommodation",

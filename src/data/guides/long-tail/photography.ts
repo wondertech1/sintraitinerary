@@ -230,6 +230,6 @@ export const photographyFaqs = [
   {
     question: "How do I photograph the Initiation Well without people?",
     answer:
-      "Be at Regaleira's entrance at 9:25am, buy tickets in advance online. Walk directly to the well (it's a 5-minute walk from the entrance). You'll have about 10-15 minutes before others arrive. Weekday mornings in low season give you even more time.",
+      "Be at Regaleira's entrance right at 10am opening, buy tickets in advance online. Walk directly to the well (it's a 5-minute walk from the entrance). You'll have about 10-15 minutes before others arrive. Weekday mornings in low season give you even more time.",
   },
 ];

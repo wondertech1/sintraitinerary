@@ -35,7 +35,7 @@ export const oneDayItinerary: ItineraryData = {
               crowdLevel: 4,
               verdict: "conditional",
               verdictText: "Grounds only — skip the interior",
-              tip: "Arrive before 09:30. We learned this the hard way — arriving at 10:45 on a Saturday meant a 40-minute wait just for bus 434. If you miss the early window, consider Route B instead.",
+              tip: "Arrive before 09:30. We learned this the hard way — arriving at 10:45 on a Saturday meant a 40-minute wait just for bus 434. Allow 20-30 minutes for the Bus 434 in peak season — if you miss the first bus, shift the entire schedule 30 minutes later. If you miss the early window altogether, consider Route B instead.",
               skipIf: "You hate crowds and don't care about the Instagram shot.",
             },
             {
@@ -43,7 +43,7 @@ export const oneDayItinerary: ItineraryData = {
               period: "morning",
               name: "Moorish Castle",
               description:
-                "A 15-minute walk from Pena Palace (downhill, well-signed). Ancient 8th-century walls with arguably better panoramic views than Pena itself, and a fraction of the crowds. When we visited on a July afternoon, we had entire stretches of wall to ourselves. Walk the full wall circuit — it takes about 30-40 minutes and the views are striking from every angle.",
+                "A 20-25 minute walk from Pena Palace gate-to-gate, including the walk through Pena's grounds to the nearest exit (downhill, well-signed). Ancient 8th-century walls with different but equally impressive views — a wider 360-degree sweep from a lower elevation, compared to Pena's dramatic Atlantic panorama from above. A fraction of the crowds. When we visited on a July afternoon, we had entire stretches of wall to ourselves. Walk the full wall circuit — it takes about 30-40 minutes and the views are striking from every angle.",
               duration: "45 min",
               cost: "€12",
               crowdLevel: 2,
@@ -52,7 +52,7 @@ export const oneDayItinerary: ItineraryData = {
               tip: "The combo ticket for Pena + Moorish Castle (€21) saves €3 compared to buying separately. Buy it at the Pena Palace entrance.",
             },
             {
-              time: "12:30",
+              time: "12:45",
               period: "afternoon",
               name: "Lunch in Sintra Town",
               description:
@@ -68,7 +68,7 @@ export const oneDayItinerary: ItineraryData = {
               period: "afternoon",
               name: "Quinta da Regaleira",
               description:
-                "A 10-minute walk from the town center. This is the highlight for most visitors. The Initiation Well — a 27-meter spiral staircase descending into the earth — is genuinely unique. But the entire garden is a labyrinth of hidden tunnels, grottoes, and symbolic architecture connected to Masonic and Templar traditions. Give yourself the full 2 hours.",
+                "A 10-minute walk from the town center. This is the highlight for most visitors. The Initiation Well — a 27-meter spiral staircase descending into the earth — is unlike anything else in Portugal. But the entire garden is a labyrinth of hidden tunnels, grottoes, and symbolic architecture connected to Masonic and Templar traditions. Give yourself the full 2 hours.",
               duration: "2 hrs",
               cost: "€20",
               crowdLevel: 3,
@@ -167,7 +167,7 @@ export const oneDayItinerary: ItineraryData = {
               period: "afternoon",
               name: "National Palace of Sintra",
               description:
-                "Right in the town center — the twin chimneys are unmistakable. This is the easiest palace to visit (no hills, no buses). The Magpie Room and Swan Room ceilings are genuinely impressive. The Moorish-era tilework throughout is some of the oldest in Portugal.",
+                "Right in the town center — the twin chimneys are unmistakable. This is the easiest palace to visit (no hills, no buses). The Magpie Room and Swan Room ceilings are notably impressive. The Moorish-era tilework throughout is some of the oldest in Portugal.",
               duration: "1 hr",
               cost: "€13",
               crowdLevel: 2,
@@ -238,7 +238,7 @@ export const oneDayItinerary: ItineraryData = {
               period: "morning",
               name: "Walk Through Sintra Town",
               description:
-                "Stroll through the old town center. See the National Palace exterior (the twin conical chimneys), browse the small shops on Rua das Padarias, grab a travesseiro pastry from Piriquita — Sintra's signature pastry since 1862.",
+                "Stroll through the old town center. See the National Palace exterior (the twin conical chimneys), browse the small shops on Rua das Padarias, grab a travesseiro pastry from Piriquita — a Sintra bakery since 1862 and the original creator of the travesseiro pastry.",
               duration: "45 min",
               cost: "Free",
               crowdLevel: 3,
@@ -262,7 +262,7 @@ export const oneDayItinerary: ItineraryData = {
               period: "afternoon",
               name: "Cabo da Roca",
               description:
-                "Take bus 403 from Sintra station (40 min, departs roughly every hour). This windswept cliff is the westernmost point of mainland Europe. The lighthouse, the cross monument, and the raw Atlantic views are spectacular. We stood at the cross marker in March and the wind nearly knocked us sideways — genuinely dramatic, not a tourist trap. Bring a jacket: it's always windier and colder here than in Sintra.",
+                "Take bus 403 from Sintra station (40 min, runs every 60-90 minutes — check the Carris Metropolitana app for the live schedule). This windswept cliff is the westernmost point of mainland Europe. The lighthouse, the cross monument, and the raw Atlantic views are spectacular. We stood at the cross marker in March and the wind nearly knocked us sideways — raw and dramatic, not a tourist trap. Bring a jacket: it's always windier and colder here than in Sintra.",
               duration: "1.5 hrs",
               cost: "€4.50 bus",
               crowdLevel: 2,
@@ -321,12 +321,12 @@ export const oneDayItinerary: ItineraryData = {
     {
       question: "Is the Pena Palace interior worth visiting?",
       answer:
-        "Honestly, no. We paid for the full interior ticket once and regretted it — the rooms are cramped, the queue added 35 minutes, and the best parts are all outside anyway. You can see 80% of the palace (all exterior terraces and ramparts) with a grounds-only ticket.",
+        "No. We paid for the full interior ticket once and regretted it — the rooms are cramped, the queue added 35 minutes, and the best parts are all outside anyway. You can see 80% of the palace (all exterior terraces and ramparts) with a grounds-only ticket.",
     },
     {
       question: "Can I walk between the palaces?",
       answer:
-        "Pena Palace to Moorish Castle: 15-minute walk (downhill). Moorish Castle to town center: 20-minute walk (downhill). Town center to Regaleira: 10-minute walk (flat). Town to Monserrate: 3km uphill (take a tuk-tuk). Bus 434 is useful for the uphill to Pena Palace only.",
+        "Pena Palace to Moorish Castle: 20-25 minutes gate-to-gate (downhill, including through Pena's grounds to the exit). Moorish Castle to town center: 20-minute walk (downhill). Town center to Regaleira: 10-minute walk (flat). Town to Monserrate: 3km uphill (take a tuk-tuk). Bus 434 is useful for the uphill to Pena Palace only.",
     },
     {
       question: "What if it rains in Sintra?",

@@ -18,7 +18,7 @@ import { faqSchema, breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "How to Get to Sintra from Lisbon — Train, Bus, Uber, Tour Compared",
   description:
-    "Complete guide to getting from Lisbon to Sintra. Train from Rossio (€2.35, 40 min), bus 434, tuk-tuks, and Uber compared. Plus getting around Sintra.",
+    "The train from Rossio costs €2.35 and takes 40 minutes. Everything else costs more and takes longer. Train, bus 434, Uber, and tuk-tuks compared — with insider tips.",
   alternates: {
     canonical: "https://sintraitinerary.com/getting-to-sintra-from-lisbon",
   },
@@ -43,8 +43,8 @@ export default function GettingToSintraPage() {
       <GuideHero
         category="Transport Guide"
         title="Getting to Sintra from Lisbon"
-        subtitle="Train, Uber, bus, or tour — every option compared with real costs and honest pros/cons. We've taken every single one of these to verify."
-        lastVerified="March 2026"
+        subtitle="Train, Uber, bus, or tour — every option compared with real costs and frank pros/cons. We at Sintra Itinerary have taken every single one of these to verify."
+        lastVerified="April 2026"
       />
 
       <div className="mx-auto max-w-[900px] px-6 py-10">

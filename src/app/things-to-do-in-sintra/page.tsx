@@ -12,9 +12,9 @@ import JsonLd from "@/components/shared/JsonLd";
 import { touristAttractionSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "10 Best Things to Do in Sintra — Ranked with Honest Verdicts",
+  title: "10 Best Things to Do in Sintra — Ranked with Candid Verdicts",
   description:
-    "Every Sintra attraction ranked with honest verdicts: worth it, conditional, or skip it. Palace comparison table, crowd levels, real costs, and practical tips.",
+    "Every Sintra attraction ranked with clear verdicts: worth it, conditional, or skip it. Palace comparison table, crowd levels, real costs, and practical tips.",
   alternates: { canonical: "https://sintraitinerary.com/things-to-do-in-sintra" },
 };
 
@@ -29,7 +29,7 @@ export default function ThingsToDoPage() {
         data={[
           touristAttractionSchema({
             name: "Things to Do in Sintra",
-            description: "Top attractions in Sintra, Portugal ranked with honest verdicts.",
+            description: "Top attractions in Sintra, Portugal ranked with candid verdicts.",
             url: "/things-to-do-in-sintra",
           }),
           faqSchema(thingsToDoFaqs),
@@ -43,8 +43,8 @@ export default function ThingsToDoPage() {
       <GuideHero
         category="Guide"
         title="Things to Do in Sintra"
-        subtitle="Every attraction ranked — with honest verdicts on what's worth your time and money, based on our visits across every season"
-        lastVerified="March 2026"
+        subtitle="Every attraction ranked — with straight verdicts on what's worth your time and money, based on our visits across every season"
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-[900px] px-6 py-10">

@@ -26,7 +26,7 @@ export const caboHighlights: CaboHighlight[] = [
   {
     title: "Cliff Walk North (toward Praia da Ursa)",
     description:
-      "An unofficial trail along the clifftops heading north. Increasingly dramatic views, fewer people. After 10-15 minutes you'll be almost alone. Don't go too close to the unfenced edges — the wind can be genuinely dangerous.",
+      "An unofficial trail along the clifftops heading north. Increasingly dramatic views, fewer people. After 10-15 minutes you'll be almost alone. Stay behind all barriers and away from unfenced cliff edges. Fatal falls have occurred here — wind gusts can be sudden and strong enough to knock you off balance, especially in summer afternoons when the Nortada blows. The Praia da Ursa descent path is hazardous in wet conditions with rockfall risk.",
     duration: "30-45 min round trip",
     difficulty: "moderate",
   },
@@ -40,7 +40,7 @@ export const caboHighlights: CaboHighlight[] = [
   {
     title: "Sunset at the Edge",
     description:
-      "Watching the sun set into the Atlantic from the westernmost point of continental Europe is genuinely special. Arrive 45 minutes early for a good spot. The wind picks up at sunset — bring layers.",
+      "Watching the sun set into the Atlantic from the westernmost point of continental Europe is an experience unlike any other. Arrive 45 minutes early for a good spot. The wind picks up at sunset — bring layers.",
     duration: "1 hr (with wait time)",
     difficulty: "easy",
   },
@@ -97,7 +97,7 @@ export const practicalInfo = {
   facilities:
     "Small tourist office, a café (overpriced coffee and sandwiches), public bathrooms. No restaurant.",
   weatherWarning:
-    "Cabo da Roca is significantly windier than Sintra or Lisbon. Bring a jacket even in summer. Winter wind can be genuinely dangerous near cliff edges.",
+    "Cabo da Roca is significantly windier than Sintra or Lisbon. Bring a jacket even in summer. Stay behind all barriers and away from unfenced cliff edges — fatal falls have occurred here. Wind gusts can be sudden and strong enough to knock you off balance, especially in summer afternoons when the Nortada blows. The Praia da Ursa descent path is hazardous in wet conditions with rockfall risk.",
   mobileSignal:
     "Spotty. Download your Uber ride or bus timetable before arriving. Don't rely on live navigation.",
   bestTime:

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   title:
     "Cabo da Roca Guide (2026) — Europe's Westernmost Point from Sintra",
   description:
-    "Complete guide to visiting Cabo da Roca from Sintra: transport options, Praia da Ursa hike, sunset tips, and whether the certificate is worth it (no).",
+    "Standing at Europe's westernmost point, the Atlantic stretches 5,000km to the horizon. Transport from Sintra, the Praia da Ursa hike, sunset timing, and practical tips.",
   alternates: {
     canonical: "https://sintraitinerary.com/cabo-da-roca-guide",
   },
@@ -70,7 +70,7 @@ export default function CaboDaRocaPage() {
         category="Day Trip Extension"
         title="Cabo da Roca — Europe's Westernmost Point"
         subtitle="Dramatic Atlantic cliffs, a wild beach descent, and standing at the edge of the continent. We came here expecting a quick photo op and stayed for ninety unforgettable minutes."
-        lastVerified="March 2026"
+        lastVerified="April 2026"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Guides", href: "/things-to-do-in-sintra" },
@@ -81,7 +81,7 @@ export default function CaboDaRocaPage() {
       <div className="mx-auto max-w-4xl px-4 pb-20">
         <ScrollReveal>
           <p className="mb-12 font-body text-base leading-relaxed text-granito/80">
-            We came to Cabo da Roca expecting a quick photo stop and ended up staying ninety minutes, hypnotised by the Atlantic crashing against 140-metre cliffs at the edge of Europe. Here is everything we learned about getting there, what to do when you arrive, and the one overpriced souvenir to skip.
+            We at Sintra Itinerary came to Cabo da Roca expecting a quick photo stop and ended up staying ninety minutes, hypnotised by the Atlantic crashing against 140-metre cliffs at the edge of Europe. Here is everything we learned about getting there, what to do when you arrive, and the one overpriced souvenir to skip.
           </p>
         </ScrollReveal>
 

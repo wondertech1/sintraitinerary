@@ -107,17 +107,17 @@ export const tunnelRoutes: TunnelRoute[] = [
     to: "Lower gardens (east side)",
     difficulty: "tricky",
     description:
-      "The least-visited tunnel. Narrow, uneven, and genuinely dark. It passes beneath the gardens and exits near the east boundary. Some visitors miss the entrance entirely. The reward is emerging in a part of the gardens few people explore.",
+      "The least-visited tunnel. Narrow, uneven, and pitch dark. It passes beneath the gardens and exits near the east boundary. Some visitors miss the entrance entirely. The reward is emerging in a part of the gardens few people explore.",
   },
 ];
 
 export const visitStrategies: VisitStrategy[] = [
   {
-    time: "09:00–09:30",
+    time: "10:00–10:15",
     label: "Early Bird (Best)",
     crowdLevel: 1,
     description:
-      "Arrive when the gates open. You'll have the well to yourself for 20-30 minutes. The morning fog, if present, drifts through the well creating ethereal photos. This is the time professional photographers come. We arrived at 9:25am on a January Wednesday and had the entire well completely to ourselves for a full 25 minutes — it felt like discovering a hidden world.",
+      "Arrive when the gates open at 10am. You'll have the well to yourself for 20-30 minutes. The morning fog, if present, drifts through the well creating ethereal photos. This is the time professional photographers come. We arrived at 10:05am on a January Wednesday and had the entire well completely to ourselves for a full 25 minutes — it felt like discovering a hidden world.",
   },
   {
     time: "10:30–12:00",
@@ -171,6 +171,10 @@ export const commonMistakes = [
     fix: "The tunnels are genuinely dark. Your phone flashlight is essential for the passages connecting the well to the lake.",
   },
   {
+    mistake: "Wearing unsuitable footwear",
+    fix: "The spiral staircase has no inner handrail and becomes dangerously slippery when wet. Wear shoes with good grip — sandals and smooth-soled shoes are a real hazard, especially after rain. The stepping stones at the grotto pool are slippery year-round regardless of weather.",
+  },
+  {
     mistake: "Skipping the Unfinished Well",
     fix: "The second, smaller well is a 2-minute detour from the tunnel system. It's rougher and emptier — and that's the appeal.",
   },
@@ -180,7 +184,7 @@ export const wellFaqs = [
   {
     question: "Is the Initiation Well at Quinta da Regaleira safe?",
     answer:
-      "Yes — the staircase has low walls on both sides, the steps are stone and well-maintained, and the tunnels have flat floors. It's not suitable for wheelchairs or people with severe claustrophobia (the tunnels are narrow), but otherwise accessible for all ages.",
+      "In dry conditions, yes — the staircase has low walls on both sides and the tunnels have flat floors. However, the spiral staircase has no inner handrail and becomes dangerously slippery when wet. Injuries happen here regularly — wear shoes with good grip and take extra care in rain or after recent rainfall. The stepping stones across the underground grotto pool are slippery year-round. It's not suitable for wheelchairs or people with severe claustrophobia (the tunnels are narrow).",
   },
   {
     question: "Can I visit the Initiation Well without visiting the rest of Regaleira?",

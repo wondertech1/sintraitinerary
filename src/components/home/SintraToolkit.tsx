@@ -9,7 +9,7 @@ const tools = [
   {
     icon: Compass,
     title: "Things to Do",
-    description: "Ranked attractions with honest verdicts — not a list of 47 things you'll never fit in.",
+    description: "Ranked attractions with clear verdicts — not a list of 47 things you'll never fit in.",
     href: "/things-to-do-in-sintra",
     available: true,
   },
@@ -24,8 +24,8 @@ const tools = [
     icon: MapPin,
     title: "Hidden Gems",
     description: "Capuchos Convent, Villa Sassetti, and the spots that don't make the Instagram feed.",
-    href: "#",
-    available: false,
+    href: "/sintra-hidden-gems",
+    available: true,
   },
 ];
 

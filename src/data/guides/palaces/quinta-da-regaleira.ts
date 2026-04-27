@@ -6,14 +6,14 @@ export const quintaDaRegaleira: PalaceGuideData = {
   subtitle: "The Initiation Well, secret tunnels, and why this is Sintra's real must-see",
   metaTitle: "Quinta da Regaleira Guide — Initiation Well, Tunnels, Tips (2026)",
   metaDescription:
-    "Complete Quinta da Regaleira guide: how to find the secret tunnels, the best route through the gardens, ticket tips, and what most visitors miss.",
-  lastVerified: "March 2026",
+    "Most visitors find the Initiation Well but miss the tunnels that run beneath the entire estate. Best route, secret entrances, ticket tips, and what to see first.",
+  lastVerified: "February 2026",
 
   verdict: {
     rating: "worth-it",
     summary:
-      "If you visit one site in Sintra, make it this one. The Initiation Well is genuinely unlike anything else in Europe — a 27-meter inverted tower spiraling into the earth, designed as a symbolic journey through death and rebirth. But Regaleira is much more than the well: the garden is a labyrinth of hidden tunnels, grottoes, and cascading pools, all designed around esoteric Masonic and Templar symbolism. The palace itself is a Manueline fantasy. You need at least 2 hours.",
-    bestFor: "Everyone — genuinely. History buffs, Instagram seekers, families, couples.",
+      "If you visit one site in Sintra, make it this one. The Initiation Well is unlike anything else in Europe — a 27-meter inverted tower spiraling into the earth, designed as a symbolic journey through death and rebirth. But Regaleira is much more than the well: the garden is a labyrinth of hidden tunnels, grottoes, and cascading pools, all designed around esoteric Masonic and Templar symbolism. The palace itself is a Manueline fantasy. You need at least 2 hours.",
+    bestFor: "Everyone — seriously. History buffs, Instagram seekers, families, couples.",
     skipIf: "You have serious mobility issues. The garden paths are steep, uneven, and the well has narrow spiral stairs.",
   },
 
@@ -70,10 +70,10 @@ export const quintaDaRegaleira: PalaceGuideData = {
       },
       {
         name: "Guided Tour",
-        price: "€17–22",
+        price: "€30–35",
         includes: "Admission + 1.5-hour guided tour with symbolism explained.",
         recommended: false,
-        note: "Worth it if you're genuinely interested in the Masonic/Templar symbolism. The guide unlocks context you won't get on your own. Book in advance on their website.",
+        note: "Worth it if you're seriously interested in the Masonic/Templar symbolism. The guide unlocks context you won't get on your own. Book in advance on their website.",
       },
     ],
     buyOnline:

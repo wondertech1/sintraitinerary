@@ -69,7 +69,7 @@ export const walkingRoutes: WalkingRoute[] = [
       "Connects to Pena Palace path too",
     ],
     description:
-      "The 'secret' walking route that most tourists don't know about. From the road near Regaleira, a forest path winds uphill through dense woodland to the Moorish Castle. It's steep in sections but well-marked. You'll feel like you're in a different world — ancient trees, birdsong, and fog. We did this walk after a morning rain and the moss-covered stones were glowing green — genuinely one of the most beautiful forest walks we've done in Europe.",
+      "The 'secret' walking route that most tourists don't know about. From the road near Regaleira, a forest path winds uphill through dense woodland to the Moorish Castle. It's steep in sections but well-marked. You'll feel like you're in a different world — ancient trees, birdsong, and fog. We did this walk after a morning rain and the moss-covered stones were glowing green — arguably one of the most beautiful forest walks we've done in Europe.",
     avoidIf: "You have mobility issues or it's been raining heavily (trail gets muddy).",
     terrain: "Dirt trail, tree roots, some stone steps. Can be muddy after rain.",
   },
@@ -192,7 +192,7 @@ export const walkingFaqs = [
   {
     question: "Can I walk between Sintra palaces?",
     answer:
-      "Yes — and you should. Pena Palace to Moorish Castle is 15 minutes downhill through forest. Town to Regaleira is 10 minutes on flat road. The Vila Sassetti trail connects town to the hilltop palaces through restored gardens. Only Monserrate requires transport (4km from town).",
+      "Yes — and you should. Pena Palace to Moorish Castle is 20-25 minutes gate-to-gate downhill through forest (including through Pena's grounds to the exit). Town to Regaleira is 10 minutes on flat road. The Vila Sassetti trail connects town to the hilltop palaces through restored gardens. Only Monserrate requires transport (4km from town).",
   },
   {
     question: "Do I need bus 434 or can I walk everywhere?",

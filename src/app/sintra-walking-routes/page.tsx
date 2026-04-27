@@ -60,8 +60,8 @@ export default function WalkingRoutesPage() {
       <GuideHero
         category="Walking & Hiking"
         title="Sintra Walking Routes"
-        subtitle="7 walking routes between palaces and beyond — distances, difficulty, and the hidden trails most tourists miss. We clocked over 50km testing these routes across multiple seasons."
-        lastVerified="March 2026"
+        subtitle="7 walking routes between palaces and beyond — distances, difficulty, and the hidden trails most tourists miss. We at Sintra Itinerary clocked over 50km testing these routes across multiple seasons."
+        lastVerified="April 2026"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Guides", href: "/things-to-do-in-sintra" },
@@ -179,7 +179,7 @@ export default function WalkingRoutesPage() {
         <ScrollReveal>
           <ProTip variant="tip">
             <strong>Our recommended walking strategy:</strong> Take bus 434 UP to Pena
-            Palace (saves energy). Walk DOWN from Pena → Moorish Castle (15 min) →
+            Palace (saves energy). Walk DOWN from Pena → Moorish Castle (20-25 min gate-to-gate) →
             town center (25 min). You get the exercise without the exhausting uphill.
           </ProTip>
         </ScrollReveal>

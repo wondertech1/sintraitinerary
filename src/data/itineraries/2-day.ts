@@ -42,7 +42,7 @@ export const twoDayItinerary: ItineraryData = {
               period: "morning",
               name: "Moorish Castle",
               description:
-                "15-minute walk from Pena. The 8th-century fortress walls offer a completely different perspective — less manicured, more rugged, with 360-degree views. Walk the full wall circuit, including the lesser-visited cistern area.",
+                "20-25 minute walk from Pena gate-to-gate (including through Pena's grounds to the exit). The 8th-century fortress walls offer a completely different perspective — less manicured, more rugged, with 360-degree views. Walk the full wall circuit, including the lesser-visited cistern area.",
               duration: "1 hr",
               cost: "€12",
               crowdLevel: 2,
@@ -99,7 +99,7 @@ export const twoDayItinerary: ItineraryData = {
             cuisine: "Traditional Portuguese",
             price: "€15–25 per person",
             description:
-              "Old-school Portuguese restaurant. Hearty portions, honest cooking. A local institution.",
+              "Old-school Portuguese restaurant. Hearty portions, no-frills cooking. A local institution.",
             whatToOrder: "Arroz de marisco (seafood rice) or the bacalhau à brás.",
           },
           transportNotes: [
@@ -180,7 +180,7 @@ export const twoDayItinerary: ItineraryData = {
               text: "If staying in Sintra overnight, no morning train needed. If coming from Lisbon, take the 08:45 train.",
             },
             {
-              text: "Bus 403 to Cabo da Roca departs ~every hour from Sintra station. Check timetable at the station.",
+              text: "Bus 403 to Cabo da Roca runs every 60-90 minutes from Sintra station (gaps can stretch to 2 hours in winter). Check the Carris Metropolitana app for the live schedule.",
             },
             {
               text: "Pro route home: Cabo da Roca → Cascais (bus 403, 30 min) → Lisbon Cais do Sodré (train, 40 min). Avoids backtracking.",
@@ -206,12 +206,12 @@ export const twoDayItinerary: ItineraryData = {
     {
       question: "Should I stay overnight in Sintra or make two day trips from Lisbon?",
       answer:
-        "Staying overnight is better. We tried it both ways — doing two day trips felt exhausting, and we missed the atmospheric evenings when the day-trippers leave. Staying overnight saves time on transit and you'll experience a completely different Sintra after 18:00. Budget options from €40-50/night exist.",
+        "Staying overnight is better. We tried it both ways — doing two day trips felt exhausting, and we missed the atmospheric evenings when the day-trippers leave. Staying overnight saves time on transit and you'll experience a completely different Sintra after 18:00. Budget options from €55-75/night in shoulder season (€80-120 in summer).",
     },
     {
       question: "Where should I stay in Sintra?",
       answer:
-        "Stay in or near the town center for walkability. Avoid anything that requires a car. Good mid-range options: Sintra Boutique Hotel (central, €60-80), Casa Miradouro (views, €50-70). Budget: Sintra local guesthouses on Booking.com from €40.",
+        "Stay in or near the town center for walkability. Avoid anything that requires a car. Good mid-range options: Sintra Boutique Hotel (central, €60-80), Casa Miradouro (views, €50-70). Budget: Sintra local guesthouses on Booking.com from €55-75 in shoulder season, €80-120 in summer.",
     },
     {
       question: "Is the 2-day itinerary too rushed?",

@@ -50,13 +50,13 @@ export default function WinterPage() {
         category="Seasonal Guide"
         title="Sintra in Winter"
         subtitle="No queues, fog-wrapped palaces, and a fairytale atmosphere that summer can't match. The case for visiting off-season."
-        lastVerified="March 2026"
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
         <ScrollReveal>
           <p className="mb-12 font-body text-base leading-relaxed text-granito/80">
-            We visited Sintra in February expecting grey skies and empty palaces — and it turned out to be our favourite trip. The fog wrapping around Pena Palace, the Initiation Well entirely to ourselves, hotel prices at half the summer rate. Here is why the off-season might actually be the best season.
+            We at Sintra Itinerary visited Sintra in February expecting grey skies and empty palaces — and it turned out to be our favourite trip. The fog wrapping around Pena Palace, the Initiation Well entirely to ourselves, hotel prices at half the summer rate. Here is why the off-season might actually be the best season.
           </p>
         </ScrollReveal>
 

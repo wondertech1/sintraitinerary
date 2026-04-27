@@ -23,7 +23,7 @@ export interface RouteOption {
 
 export const beforeYouGo = [
   "Buy palace tickets online the night before (saves 20-30 min in queues)",
-  "Check bus 434 timetable at scotturb.com — first bus ~9:15am from Sintra station",
+  "Check bus 434 timetable at the Carris Metropolitana website — first bus ~9:15am from Sintra station",
   "Wear comfortable walking shoes (cobblestones + steep forest paths)",
   "Pack water and snacks — options inside palaces are overpriced and limited",
   "Bring layers — Sintra's hilltop is 5-7°C cooler than Lisbon, even in summer",
@@ -69,8 +69,8 @@ export const routeOptions: RouteOption[] = [
         time: "11:00am",
         title: "Walk to Moorish Castle",
         description:
-          "15-minute downhill walk through the forest from Pena to the Moorish Castle entrance. A beautiful, shaded trail.",
-        transport: "Walk — 15 min downhill (free)",
+          "20-25 minute gate-to-gate downhill walk through the forest from Pena to the Moorish Castle entrance (including through Pena's grounds to the exit). A beautiful, shaded trail.",
+        transport: "Walk — 20-25 min downhill (free)",
       },
       {
         time: "11:15am",
@@ -158,8 +158,8 @@ export const routeOptions: RouteOption[] = [
         time: "1:00pm",
         title: "Walk to Pena Palace",
         description:
-          "15-minute uphill walk from Moorish Castle through the forest.",
-        transport: "Walk — 15 min",
+          "20-25 minute uphill walk from Moorish Castle through the forest.",
+        transport: "Walk — 20-25 min",
       },
       {
         time: "1:15pm",
@@ -228,7 +228,7 @@ export const dayTripFaqs = [
   {
     question: "Is Sintra doable as a day trip from Lisbon?",
     answer:
-      "Absolutely — it's the most popular day trip from Lisbon. The train takes 40 minutes from Rossio station. Leave by 7:30-8:00am, return by 5pm. You'll comfortably see 2-3 palaces, eat lunch, and explore the town.",
+      "Absolutely — it's the most popular day trip from Lisbon. The train takes 40 minutes from Rossio station. Leave by 7:30-8:00am, return by 5pm. You'll comfortably see 2-3 palaces, eat lunch, and explore the town. For the full Lisbon itinerary with Sintra included as a day trip, see <a href=\"https://lisbonitinerary.com/3-day-lisbon-itinerary\" target=\"_blank\" rel=\"noopener\">our 3-day Lisbon itinerary</a>.",
   },
   {
     question: "What's the best route for a Sintra day trip?",

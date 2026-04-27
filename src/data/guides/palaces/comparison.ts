@@ -24,7 +24,7 @@ export const palaceRankings: PalaceRanking[] = [
     verdict: "must-see",
     verdictText: "The #1 pick — don't leave Sintra without visiting",
     oneLiner:
-      "The Initiation Well is genuinely unique in Europe — we descended in near-silence and emerged through a hidden grotto into daylight. The gardens are a labyrinth of tunnels and grottoes. Worth every cent of the €20.",
+      "The Initiation Well is unlike anything else in Europe — we descended in near-silence and emerged through a hidden grotto into daylight. The gardens are a labyrinth of tunnels and grottoes. Worth every cent of the €20.",
     cost: "€20",
     duration: "2 hrs",
     crowdLevel: 3,
@@ -42,7 +42,7 @@ export const palaceRankings: PalaceRanking[] = [
     verdict: "must-see",
     verdictText: "Best views in Sintra — €12 well spent",
     oneLiner:
-      "1,000-year-old fortress walls with better panoramic views than Pena Palace and a tenth of the crowds. A 15-minute walk from Pena.",
+      "1,000-year-old fortress walls with different but equally impressive views to Pena — a wider 360-degree sweep from a lower elevation. A tenth of the crowds. A 20-25 minute walk from Pena gate-to-gate.",
     cost: "€12",
     duration: "45 min",
     crowdLevel: 2,
@@ -157,7 +157,7 @@ export const comparisonFaqs = [
   {
     question: "Which palace has the best views?",
     answer:
-      "The Moorish Castle. The 360-degree views from the ancient walls are arguably better than Pena Palace, with dramatically fewer crowds. The Royal Tower summit is the single best viewpoint in Sintra.",
+      "The Moorish Castle and Pena Palace offer different but equally impressive views. The Moorish Castle gives a wider 360-degree sweep from a lower elevation — you can see the entire Serra, the town, Lisbon, and the Atlantic in one turn. Pena Palace offers a more dramatic Atlantic panorama from above, with the palace itself in the foreground. The Royal Tower at the Moorish Castle is the single best viewpoint for sheer range of sightlines, with dramatically fewer crowds.",
   },
   {
     question: "Which palace has the best interior?",

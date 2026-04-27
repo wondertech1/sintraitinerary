@@ -26,9 +26,9 @@ import {
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Is Sintra Worth Visiting? (2026) — Honest Pros, Cons & Verdict",
+  title: "Is Sintra Worth Visiting? (2026) — Real Pros, Cons & Verdict",
   description:
-    "Honest assessment of whether Sintra is worth visiting: pros, cons, myths debunked, and which types of travelers will love (or hate) it.",
+    "10,000+ visitors arrive on peak summer days — and many leave disappointed. Whether Sintra is worth it depends entirely on who you are. Pros, cons, myths, and a clear verdict.",
   alternates: {
     canonical: "https://sintraitinerary.com/is-sintra-worth-visiting",
   },
@@ -71,8 +71,8 @@ export default function WorthVisitingPage() {
       <GuideHero
         category="Decision Helper"
         title="Is Sintra Worth Visiting?"
-        subtitle="The honest answer with real pros, real cons, and who should (and shouldn't) make the trip."
-        lastVerified="March 2026"
+        subtitle="The unfiltered answer with real pros, real cons, and who should (and shouldn't) make the trip."
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -89,7 +89,7 @@ export default function WorthVisitingPage() {
               It&apos;s one of the most unique destinations in Europe. Quinta da
               Regaleira&apos;s Initiation Well has no equivalent anywhere. The variety of
               palaces, castles, and landscapes in a small area is exceptional.
-              We&apos;ve visited across all four seasons and it never disappoints.{" "}
+              We at Sintra Itinerary have visited across all four seasons and it never disappoints.{" "}
               <strong>The only caveat:</strong> avoid peak summer crowds or go very
               early. And manage expectations about Pena Palace&apos;s interior.
             </p>

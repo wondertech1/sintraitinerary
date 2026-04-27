@@ -19,7 +19,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sintra vs Cascais (2026) — Which Lisbon Day Trip Should You Pick?",
   description:
-    "Honest comparison of Sintra vs Cascais: 10 categories scored, scenario-based recommendations, and when to visit each (or both).",
+    "Palaces and forest mystery vs Atlantic beaches and seafood — which Lisbon day trip wins? 10 categories scored with scenario-based picks and a do-both loop route.",
   alternates: {
     canonical: "https://sintraitinerary.com/sintra-vs-cascais",
   },
@@ -57,7 +57,7 @@ export default function VsCascaisPage() {
       <GuideHero
         category="Comparison"
         title="Sintra vs Cascais"
-        subtitle="Palaces and fog or beaches and seafood? We've done both day trips back-to-back more than once — here's the honest comparison to help you choose."
+        subtitle="Palaces and fog or beaches and seafood? We at Sintra Itinerary have done both day trips back-to-back more than once — here's the unfiltered comparison to help you choose."
         lastVerified="March 2026"
       />
 
@@ -190,7 +190,7 @@ export default function VsCascaisPage() {
 
         <RelatedGuides links={[
           { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip", description: "Step-by-step Sintra day trip" },
-          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Honest pros and cons" },
+          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Real pros and cons" },
           { label: "Cabo da Roca", href: "/cabo-da-roca-guide", description: "Combine with a Sintra-Cascais loop" },
           { label: "Travel Tips", href: "/sintra-travel-tips", description: "35+ essential tips" },
         ]} />

@@ -34,7 +34,7 @@ export default function ThreeDayItineraryPage() {
             This itinerary requires 2 nights in Sintra. We&apos;ve tested it
             across seasons and staying in town is non-negotiable — the evenings
             after day-trippers leave are when Sintra reveals its real character.
-            Budget rooms from €40/night.
+            Budget rooms from €55-75/night in shoulder season, €80-120 in summer.
           </ProTip>
         </ScrollReveal>
 

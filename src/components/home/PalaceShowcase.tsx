@@ -21,11 +21,11 @@ const palaces: Palace[] = [
   {
     name: "Pena Palace",
     oneLiner:
-      "The colorful hilltop icon. Grounds-only ticket gets you 80% of the experience — skip the interior.",
+      "The colorful hilltop icon. Grounds-only ticket gets you 80% of the experience in summer — in winter, the interior is worth it.",
     duration: "2–3 hrs",
     cost: "€14",
     verdict: "conditional",
-    verdictText: "Grounds only — skip the interior",
+    verdictText: "Grounds only in summer — interior worthwhile off-season",
     href: "/things-to-do-in-sintra#pena-palace",
   },
   {
@@ -41,7 +41,7 @@ const palaces: Palace[] = [
   {
     name: "Moorish Castle",
     oneLiner:
-      "A 20-minute detour from Pena with better views and zero queues. The underrated pick.",
+      "A 20-25 minute walk from Pena with different but equally impressive views and zero queues. The underrated pick.",
     duration: "45 min",
     cost: "€8",
     verdict: "worth-it",

@@ -66,7 +66,7 @@ export default function KidsPage() {
         category="Family Guide"
         title="Sintra with Kids"
         subtitle="Which palaces kids actually enjoy, stroller reality checks, and survival tips from parents who've done it."
-        lastVerified="March 2026"
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">

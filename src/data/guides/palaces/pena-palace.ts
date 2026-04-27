@@ -3,16 +3,16 @@ import { PalaceGuideData } from "./types";
 export const penaPalace: PalaceGuideData = {
   slug: "pena-palace-guide",
   name: "Pena Palace",
-  subtitle: "The colorful hilltop icon — and why you should skip the interior",
+  subtitle: "The colorful hilltop icon — and when the interior is (and isn't) worth it",
   metaTitle: "Pena Palace Guide — Grounds Only vs Interior, Tickets, Tips",
   metaDescription:
-    "Honest Pena Palace guide: why the grounds-only ticket is the move, what the interior actually looks like, best photo spots, and how to avoid the worst crowds.",
-  lastVerified: "March 2026",
+    "Most visitors buy the full Pena Palace ticket without knowing the grounds-only option saves €5 and skips the worst queues. Photo spots, crowd patterns, and visit strategy inside.",
+  lastVerified: "February 2026",
 
   verdict: {
     rating: "conditional",
     summary:
-      "Pena Palace is visually spectacular from the outside — a Romanticist fever dream of colors, turrets, and Moorish arches. But the hype around the interior is misleading. The rooms are small, the furniture unremarkable, and the queue adds 30-45 minutes. Buy the grounds-only ticket, walk the full rampart loop, and spend your saved time at Moorish Castle next door.",
+      "Pena Palace is visually spectacular from the outside — a Romanticist fever dream of colors, turrets, and Moorish arches. In summer with 45-minute queues, the grounds-only ticket is the better choice. But in the off-season (November–February), when queues are under 10 minutes, the full ticket is worthwhile — particularly for the 16th-century alabaster chapel retable and Ferdinand II's private study, which offer depth you won't get from the terraces alone. Buy the grounds-only ticket in peak season, walk the full rampart loop, and spend your saved time at Moorish Castle next door.",
     bestFor:
       "Photographers, architecture enthusiasts, anyone who wants the iconic Sintra shot",
     skipIf:
@@ -30,14 +30,14 @@ export const penaPalace: PalaceGuideData = {
   },
 
   introduction:
-    "The Palácio da Pena is Portugal's most visited monument and Sintra's undisputed star. Built between 1842 and 1854 by King Ferdinand II on the ruins of a monastery, it's a deliberately theatrical mashup of Romanticist styles — Gothic towers meet Moorish gateways meet Manueline stone carvings, all painted in sun-yellow and terracotta-red. From a distance, perched above the clouds on its hilltop, it genuinely looks like something from a fairy tale. When we first saw it from the road below, half-swallowed by morning fog, nobody in the car said a word for about ten seconds. Up close, the exteriors deliver. The interior? That's where the disappointment starts.",
+    "The Palácio da Pena is Portugal's most visited monument and Sintra's undisputed star. Built between 1842 and 1854 by King Ferdinand II on the ruins of a monastery, it's a deliberately theatrical mashup of Romanticist styles — Gothic towers meet Moorish gateways meet Manueline stone carvings, all painted in sun-yellow and terracotta-red. From a distance, perched above the clouds on its hilltop, it really does look like something from a fairy tale. When we first saw it from the road below, half-swallowed by morning fog, nobody in the car said a word for about ten seconds. Up close, the exteriors deliver. The interior? That's where the disappointment starts.",
 
   sections: [
     {
       id: "interior-vs-grounds",
       title: "Interior vs Grounds-Only: The Honest Verdict",
       content:
-        "This is the debate every Sintra visitor has, and here's the straight answer: buy the grounds-only ticket (€12). Here's why:\n\nThe interior consists of roughly 20 small rooms with period furniture, some nice tilework, and a few ornate ceilings. It's fine — not bad, just underwhelming given the queue (30-45 min in peak season) and the €8 premium over grounds-only. The rooms were designed for intimacy, not spectacle, and with 30 other tourists shuffling through each one, there's no intimacy to be found.\n\nThe grounds-only ticket gives you full access to all exterior terraces, the rampart walkway, the Triton gate, the courtyard with its Moorish arches, and the surrounding park. This is where 90% of the photogenic content is. Every famous Pena Palace photo you've seen was taken from the exterior.\n\nWe spent 45 minutes in the queue for the interior rooms. The rooms were fine. Not 45-minutes-in-the-sun fine. The Queen's terrace and the chapel inside have genuine merit if you're a serious architecture enthusiast. Everyone else: save the €6 and the 45-minute queue.",
+        "This is the debate every Sintra visitor has, and here's the straight answer: buy the grounds-only ticket (€12). Here's why:\n\nThe interior consists of roughly 20 small rooms with period furniture, some nice tilework, and a few ornate ceilings. It's fine — not bad, just underwhelming given the queue (30-45 min in peak season) and the €8 premium over grounds-only. The rooms were designed for intimacy, not spectacle, and with 30 other tourists shuffling through each one, there's no intimacy to be found.\n\nThe grounds-only ticket gives you full access to all exterior terraces, the rampart walkway, the Triton gate, the courtyard with its Moorish arches, and the surrounding park. This is where 90% of the photogenic content is. Every famous Pena Palace photo you've seen was taken from the exterior.\n\nWe spent 45 minutes in the queue for the interior rooms. The rooms were fine. Not 45-minutes-in-the-sun fine. The Queen's terrace and the chapel inside have genuine merit if you're a serious architecture enthusiast. Everyone else: save the €8 and the 45-minute queue.",
     },
     {
       id: "what-to-see",
@@ -49,7 +49,7 @@ export const penaPalace: PalaceGuideData = {
       id: "the-park",
       title: "Pena Park: The Part Most People Skip",
       content:
-        "The 200-hectare park surrounding the palace is a designed Romantic landscape of exotic trees, hidden paths, and viewpoints. Most visitors ignore it entirely — their loss.\n\n**Alto do Chá** — The finest viewpoint in the park. A 10-minute walk from the palace on a marked trail, it offers the classic photograph of Pena Palace framed by trees. Almost nobody walks here.\n\n**The Valley of the Lakes** — Follow the park trail downhill. You'll pass through a fern valley with a chain of artificial lakes. Peaceful and empty.\n\n**The Cruz Alta** — The highest point of the entire Serra de Sintra (529m). A 20-minute walk from the palace. Rewarded with views in every direction.\n\nBudget 30-60 extra minutes for the park if you enjoy walking. The park entrance opens at 9am, 30 minutes before the palace — start here if you're early.",
+        "The 85-hectare park surrounding the palace is a designed Romantic landscape of exotic trees, hidden paths, and viewpoints. Most visitors ignore it entirely — their loss.\n\n**Alto do Chá** — The finest viewpoint in the park. A 10-minute walk from the palace on a marked trail, it offers the classic photograph of Pena Palace framed by trees. Almost nobody walks here.\n\n**The Valley of the Lakes** — Follow the park trail downhill. You'll pass through a fern valley with a chain of artificial lakes. Peaceful and empty.\n\n**The Cruz Alta** — The highest point of the entire Serra de Sintra (528m). A 20-minute walk from the palace. Rewarded with views in every direction.\n\n**Chalet da Condessa d'Edla** — Don't miss this restored Swiss alpine-style retreat built by Ferdinand II for his second wife, Elisa Hensler. It's tucked inside the park grounds and included in your ticket — most visitors walk right past it. The interior has been beautifully restored with original cork decoration and painted walls.\n\nBudget 30-60 extra minutes for the park if you enjoy walking. The park entrance opens at 9am, 30 minutes before the palace — start here if you're early.",
     },
   ],
 
@@ -76,7 +76,7 @@ export const penaPalace: PalaceGuideData = {
         price: "€21 (grounds) / €25 (full)",
         includes: "Both sites. Saves €3 vs buying separately.",
         recommended: true,
-        note: "Best deal if visiting both (and you should — Moorish Castle is a 15-min walk away).",
+        note: "Best deal if visiting both (and you should — Moorish Castle is a 20-25 min walk gate-to-gate).",
       },
     ],
     buyOnline:
@@ -118,7 +118,7 @@ export const penaPalace: PalaceGuideData = {
     "The palace is at 500m altitude. It's cooler and windier than Sintra town. Bring a layer.",
     "Water and snacks inside the palace are expensive. Buy from the town center before heading up.",
     "The park entrance opens at 9am — 30 min before the palace. Start with the park if you're early.",
-    "After Pena, walk downhill to the Moorish Castle (15 min) rather than taking the bus back. The path is well-signed and scenic.",
+    "After Pena, walk downhill to the Moorish Castle (20-25 min gate-to-gate, including the walk through Pena's grounds to the exit) rather than taking the bus back. The path is well-signed and scenic.",
     "Strollers don't work here. Baby carriers only — paths are steep and cobbled.",
   ],
 
@@ -126,7 +126,7 @@ export const penaPalace: PalaceGuideData = {
     {
       question: "Is the Pena Palace interior worth the extra €8?",
       answer:
-        "For most visitors, no. The interior rooms are small and the queue adds 30-45 minutes. The grounds-only ticket gives you access to all the famous terraces, ramparts, and the courtyard — where 90% of the experience is. Architecture enthusiasts may enjoy the chapel and Queen's apartments.",
+        "It depends on when you visit. In summer, with queues of 30-45 minutes, the grounds-only ticket is the better choice — the rooms don't justify the wait. But in the off-season (November–February), when queues are under 10 minutes, the full ticket is worthwhile. The 16th-century alabaster chapel retable and Ferdinand II's private study offer genuine depth you won't get from the terraces alone. In peak season: save the €8. In winter: consider spending it.",
     },
     {
       question: "How do I get to Pena Palace?",
@@ -141,7 +141,7 @@ export const penaPalace: PalaceGuideData = {
     {
       question: "Can I visit Pena Palace and Moorish Castle on the same morning?",
       answer:
-        "Yes — this is the recommended combination and exactly what we did. We started at Pena at 9:30am, spent about two hours on the grounds, then walked 15 minutes downhill to the Moorish Castle. We finished both by 12:45pm and had a leisurely lunch in town before heading to Regaleira.",
+        "Yes — this is the recommended combination and exactly what we did. We started at Pena at 9:30am, spent about two hours on the grounds, then walked 20-25 minutes downhill to the Moorish Castle (gate-to-gate, including through Pena's grounds). We finished both by 12:45pm and had a leisurely lunch in town before heading to Regaleira.",
     },
     {
       question: "Is Pena Palace accessible for wheelchairs?",

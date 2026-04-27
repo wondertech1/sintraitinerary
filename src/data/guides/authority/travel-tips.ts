@@ -21,6 +21,12 @@ export const tipCategories: TipCategory[] = [
         tip: "Download offline maps — mobile signal is unreliable on the forested trails between palaces.",
       },
       {
+        tip: "For mobile data, buy a Portuguese SIM (MEO, Vodafone, or NOS) at Lisbon airport for around €15-20, or use an eSIM. Palace gardens have patchy signal — download offline maps before you go.",
+      },
+      {
+        tip: "Download the Parques de Sintra app before your visit — it shows real-time wait times and capacity at each palace, plus interactive maps of the grounds.",
+      },
+      {
         tip: "Pack layers. Sintra's hilltop is 5-7°C cooler than Lisbon with unpredictable fog, even in summer.",
       },
       {
@@ -34,7 +40,7 @@ export const tipCategories: TipCategory[] = [
     icon: "train",
     tips: [
       {
-        tip: "Train from Lisbon Rossio: 40 min, €2.35 each way, every 20-30 min. The cheapest and easiest option.",
+        tip: "Train from Lisbon Rossio: 40 min, €2.35 each way, every 20-30 min. The cheapest and easiest option. Coming from the airport? See our <a href=\"https://lisbonitinerary.com/guides/lisbon-airport-transfer\" target=\"_blank\" rel=\"noopener\">Lisbon airport transfer guide</a> for how to get from the airport to Rossio.",
         link: { label: "Full transport guide", href: "/getting-to-sintra-from-lisbon" },
       },
       {
@@ -44,11 +50,14 @@ export const tipCategories: TipCategory[] = [
         tip: "Skip tuk-tuks. They charge €10-15 per person for short rides. Bus 434 + walking covers everything. We watched a tuk-tuk driver charge a family €12 per person for a 5-minute ride to Regaleira — a flat 10-minute walk.",
       },
       {
-        tip: "Walk between Pena Palace and Moorish Castle (15 min downhill through forest). Don't bus back and forth.",
+        tip: "Walk between Pena Palace and Moorish Castle (20-25 min gate-to-gate downhill through forest, including through Pena's grounds). Don't bus back and forth.",
         link: { label: "All walking routes", href: "/sintra-walking-routes" },
       },
       {
         tip: "Monserrate Palace has no bus service. Budget €6-8 for an Uber/taxi each way from town.",
+      },
+      {
+        tip: "English is widely spoken at palaces and tourist restaurants. At smaller venues (Capuchos, Monserrate café, São Pedro restaurants), staff may have limited English. Basic Portuguese goes a long way: obrigado/obrigada (thank you), bom dia (good morning), a conta por favor (the bill please).",
       },
     ],
   },
@@ -69,7 +78,10 @@ export const tipCategories: TipCategory[] = [
         link: { label: "Pena Palace guide", href: "/guides/pena-palace-guide" },
       },
       {
-        tip: "Start at Regaleira (opens 10am), not Pena. Everyone goes to Pena first — reverse the crowd flow.",
+        tip: "Best crowd-beating move in Sintra: enter Pena Park through the lower gates at 9:00am (30 minutes before the palace opens), walk up through the forest trails, and arrive at the terraces from below by 9:30. You skip the Bus 434 queue entirely and get the palace nearly to yourself.",
+      },
+      {
+        tip: "Start at Regaleira (opens 10am), not Pena. Everyone goes to Pena first — reverse the crowd flow. This advice applies to summer. In winter, when Pena opens at 9:30am and Regaleira at 10am, starting at Pena lets you catch the morning fog at its most dramatic and beat the crowds before they arrive on the first bus.",
         link: { label: "Crowd-avoiding route", href: "/lisbon-to-sintra-day-trip" },
       },
       {
@@ -111,13 +123,16 @@ export const tipCategories: TipCategory[] = [
         link: { label: "What to eat in Sintra", href: "/where-to-eat-in-sintra" },
       },
       {
-        tip: "Tascantiga is the best restaurant. Romaria de Baco for honest traditional food. Skip Café Paris — overpriced for the quality, and the food doesn't match what you'll get at proper restaurants nearby.",
+        tip: "Tascantiga is the best restaurant. Romaria de Baco for straightforward traditional food. Skip Café Paris — overpriced for the quality, and the food doesn't match what you'll get at proper restaurants nearby.",
       },
       {
         tip: "Eat lunch after palaces (1-2pm), not before. Restaurants are emptier, and you use the cool morning hours for hiking.",
       },
       {
         tip: "Bar Fonte da Pipa is a hidden garden bar for end-of-day drinks. Down a narrow alley — most tourists miss it.",
+      },
+      {
+        tip: "Tipping in Portugal: 5-10% at sit-down restaurants if you're happy with the service. At cafés, round up to the nearest euro. Tipping is appreciated but not obligatory.",
       },
     ],
   },
@@ -137,6 +152,27 @@ export const tipCategories: TipCategory[] = [
       },
       {
         tip: "The Moorish Castle at golden hour, with Pena Palace in the background, is the signature Sintra landscape shot.",
+      },
+    ],
+  },
+  {
+    category: "Safety & Health",
+    icon: "shield",
+    tips: [
+      {
+        tip: "Tap water in Portugal is safe to drink everywhere — refill bottles at palace fountains to save money and reduce plastic.",
+      },
+      {
+        tip: "European emergency number: 112. Nearest hospital: Hospital Fernando Fonseca (Amadora-Sintra), 20 minutes by car. Pharmacies in the town center include Farmacia Oliveira on the main road.",
+      },
+      {
+        tip: "Check yourself for ticks after forest walks, especially the Cruz Alta trail and Monserrate paths in spring and summer.",
+      },
+      {
+        tip: "Watch for pickpockets at Rossio train station and in the Bus 434 queue — keep valuables in front pockets.",
+      },
+      {
+        tip: "Public toilets at Sintra train station, in the town center near the National Palace, and inside every palace. There are no facilities on the forest trails between palaces — plan accordingly.",
       },
     ],
   },
@@ -165,12 +201,12 @@ export const travelTipsFaqs = [
   {
     question: "What are the most important Sintra tips?",
     answer:
-      "Buy tickets online, arrive early, start at Regaleira (opens 10am) instead of Pena, wear walking shoes, bring layers, and limit yourself to 2-3 palaces per day. These six things will dramatically improve your visit.",
+      "Buy tickets online, arrive early, start at Regaleira (opens 10am) instead of Pena in summer — in winter, start at Pena for the morning fog, wear walking shoes, bring layers, and limit yourself to 2-3 palaces per day. These six things will dramatically improve your visit.",
   },
   {
     question: "What mistakes do tourists make in Sintra?",
     answer:
-      "Starting at Pena Palace (everyone does — reverse the flow), buying the Pena interior ticket (skip it), taking tuk-tuks instead of walking, not buying tickets online, arriving after 10am, and trying to see all 5 palaces in one day. We made the Pena interior mistake on our first visit — 45 minutes queuing for underwhelming rooms. Save your money and time.",
+      "Starting at Pena Palace in summer (everyone does — reverse the flow), buying the Pena interior ticket in peak season when the queue is 45 minutes, taking tuk-tuks instead of walking, not buying tickets online, arriving after 10am, and trying to see all 5 palaces in one day. We made the Pena interior mistake on our first summer visit — 45 minutes queuing for underwhelming rooms. In winter, when there's no queue, the interior is actually worth seeing. Save your money and time in summer.",
   },
   {
     question: "How should I plan my Sintra day?",

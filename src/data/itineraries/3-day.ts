@@ -45,12 +45,12 @@ export const threeDayItinerary: ItineraryData = {
               period: "morning",
               name: "Moorish Castle",
               description:
-                "15-minute walk from Pena (downhill). Walk the full wall circuit including the lesser-visited cistern area and the northern rampart. We've done this walk three times now, and the luxury of sitting on the ancient walls with a snack — watching hawks circle below you — is genuinely one of the best moments Sintra offers.",
+                "20-25 minute walk from Pena gate-to-gate (downhill), including the walk through Pena's grounds to the nearest exit. Walk the full wall circuit including the lesser-visited cistern area and the northern rampart. We've done this walk three times now, and the luxury of sitting on the ancient walls with a snack — watching hawks circle below you — is in practice one of the best moments Sintra offers.",
               duration: "1 hr",
               cost: "€12",
               crowdLevel: 2,
               verdict: "worth-it",
-              verdictText: "Underrated highlight — better views than Pena",
+              verdictText: "Underrated highlight — different, equally impressive views",
             },
             {
               time: "13:00",
@@ -127,7 +127,7 @@ export const threeDayItinerary: ItineraryData = {
               period: "morning",
               name: "Monserrate Palace & Gardens",
               description:
-                "Tuk-tuk from town (€5-8, 5 min). The interior stucco work rivals the Alhambra — we honestly gasped when we walked into the main hall. Spend time in the 33-hectare garden — the Mexican garden with towering cacti, the fern valley where the air smells like damp earth and eucalyptus, and the Japanese-inspired section. Most visitors only see the palace; the garden is the real treasure.",
+                "Tuk-tuk from town (€5-8, 5 min). The interior stucco work rivals the Alhambra — we actually gasped when we walked into the main hall. Spend time in the 33-hectare garden — the Mexican garden with towering cacti, the fern valley where the air smells like damp earth and eucalyptus, and the Japanese-inspired section. Most visitors only see the palace; the garden is the real treasure.",
               duration: "2.5 hrs",
               cost: "€12",
               crowdLevel: 1,
@@ -164,7 +164,7 @@ export const threeDayItinerary: ItineraryData = {
               period: "afternoon",
               name: "National Palace of Sintra",
               description:
-                "Right in the town center — the medieval palace with the iconic twin chimneys. No hills, no buses. The Magpie Room ceiling, the Swan Room, the enormous kitchen, and the Moorish-era tilework. Audio guide included and genuinely good.",
+                "Right in the town center — the medieval palace with the iconic twin chimneys. No hills, no buses. The Magpie Room ceiling, the Swan Room, the enormous kitchen, and the Moorish-era tilework. Audio guide included and actually worth using.",
               duration: "1.5 hrs",
               cost: "€13",
               crowdLevel: 2,
@@ -311,13 +311,13 @@ export const threeDayItinerary: ItineraryData = {
             cuisine: "Seafood",
             price: "€18–30 per person",
             description:
-              "Perched on the cliffs between Cascais and Boca do Inferno. We ended our three-day trip here watching the sun drop toward the Atlantic with a glass of vinho verde — ocean views, fresh fish, and a genuinely relaxed atmosphere.",
+              "Perched on the cliffs between Cascais and Boca do Inferno. We ended our three-day trip here watching the sun drop toward the Atlantic with a glass of vinho verde — ocean views, fresh fish, and a noticeably relaxed atmosphere.",
             whatToOrder:
               "Grilled sea bass, arroz de marisco, or whatever's fresh on the daily board.",
           },
           transportNotes: [
             {
-              text: "Bus 403 from Sintra station to Cabo da Roca: €4.50, departs roughly every hour. Check the timetable.",
+              text: "Bus 403 from Sintra station to Cabo da Roca: €4.50, runs every 60-90 minutes (gaps can stretch to 2 hours in winter). Check the Carris Metropolitana app for the live schedule.",
             },
             {
               text: "Bus 403 continues from Cabo da Roca to Cascais: €4.50, 30 min.",
@@ -386,7 +386,7 @@ export const threeDayItinerary: ItineraryData = {
     {
       question: "Where should I stay in Sintra for 3 days?",
       answer:
-        "Stay in or near the town center for walkability. Good options: Sintra Boutique Hotel (central, €60-80/night), Casa Miradouro (views, €50-70), or local guesthouses on Booking.com from €40. Avoid anything requiring a car — you won't need one.",
+        "Stay in or near the town center for walkability. Good options: Sintra Boutique Hotel (central, €70-100/night), Casa Miradouro (views, €60-80), or local guesthouses on Booking.com from €55-75 in shoulder season, €80-120 in summer. Avoid anything requiring a car — you won't need one.",
     },
     {
       question: "What if it rains on one of my 3 days?",

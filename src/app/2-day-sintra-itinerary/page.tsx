@@ -34,7 +34,7 @@ export default function TwoDayItineraryPage() {
             We stayed overnight in Sintra and it completely changed the
             experience — the town after 18:00, once the day-trippers leave, is
             eerily peaceful. You&apos;ll also avoid the morning train crush. Budget rooms
-            from €40/night.
+            from €55-75/night in shoulder season, €80-120 in summer.
           </ProTip>
         </ScrollReveal>
 

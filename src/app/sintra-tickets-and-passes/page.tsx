@@ -21,7 +21,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sintra Tickets & Passes 2026 — Prices, Combos & Skip-the-Line Tips",
   description:
-    "Complete guide to Sintra palace tickets with 2026 prices, combo deals, and skip-the-line strategies. Find out which tickets are worth buying.",
+    "Save €20+ on Sintra palace tickets with the right combo strategy. 2026 prices, skip-the-line tips, and a frank verdict on which tickets are actually worth buying.",
   alternates: {
     canonical: "https://sintraitinerary.com/sintra-tickets-and-passes",
   },
@@ -44,7 +44,7 @@ export default function TicketsPage() {
         category="Practical Guide"
         title="Sintra Tickets & Passes — 2026 Prices"
         subtitle="Every ticket option, combo deal, and skip-the-line strategy — so you don't waste money or time in queues."
-        lastVerified="March 2026"
+        lastVerified="April 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -178,7 +178,7 @@ export default function TicketsPage() {
         <ScrollReveal>
           <ProTip variant="money-saver">
             <strong>Best strategy:</strong> Buy Pena + Moorish combo online (€19), Regaleira
-            separately online (€12). We followed this exact route and it worked perfectly — Pena first thing, walked 15 min downhill to Moorish Castle through a beautiful forest path,
+            separately online (€12). We followed this exact route and it worked perfectly — Pena first thing, walked 20-25 min gate-to-gate downhill to Moorish Castle through a beautiful forest path,
             bus back to town, then walked to Regaleira. Total: €31 for the three best experiences.
           </ProTip>
         </ScrollReveal>

@@ -40,7 +40,7 @@ export const rainyDayAttractions: RainyDayAttraction[] = [
     rainAdvantage:
       "Entirely indoors. The palace was designed for the Portuguese monarchy's rain-soaked winters. The rooms, kitchens, and courtyards are all under cover.",
     description:
-      "The easiest rainy-day visit. No hills, no buses — it's right in the town center. The Magpie Room, Swan Room, and the enormous medieval kitchen are genuinely interesting. Audio guide included.",
+      "The easiest rainy-day visit. No hills, no buses — it's right in the town center. The Magpie Room, Swan Room, and the enormous medieval kitchen are surprisingly interesting. Audio guide included.",
     indoorOutdoor: "indoor",
     rank: 2,
   },

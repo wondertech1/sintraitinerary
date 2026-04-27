@@ -82,7 +82,7 @@ export const sintraCascaisItinerary: ItineraryData = {
               period: "afternoon",
               name: "Cabo da Roca",
               description:
-                "The westernmost point of mainland Europe. Windswept headland, lighthouse, stone cross, towering Atlantic cliffs. We walked the cliff path south and the scale of the drop hit us all at once — genuinely vertigo-inducing. Dramatically different from Sintra's forests.",
+                "The westernmost point of mainland Europe. Windswept headland, lighthouse, stone cross, towering Atlantic cliffs. We walked the cliff path south and the scale of the drop hit us all at once — measurably vertigo-inducing. Dramatically different from Sintra's forests.",
               duration: "1 hr",
               cost: "Free",
               crowdLevel: 2,
@@ -146,7 +146,7 @@ export const sintraCascaisItinerary: ItineraryData = {
               text: "Bus 434 from Sintra station to Pena Palace: €5 single or €13.50 day pass.",
             },
             {
-              text: "Bus 403: Sintra → Cabo da Roca (€4.50, 40 min), Cabo da Roca → Cascais (€4.50, 30 min). Runs roughly every hour.",
+              text: "Bus 403: Sintra → Cabo da Roca (€4.50, 40 min), Cabo da Roca → Cascais (€4.50, 30 min). Runs every 60-90 minutes (gaps can stretch to 2 hours in winter — check the Carris Metropolitana app for the live schedule).",
             },
             {
               text: "Train Cascais → Lisbon Cais do Sodré: €2.35, every 20 min, 40 min. Last train ~01:00.",
@@ -320,7 +320,7 @@ export const sintraCascaisItinerary: ItineraryData = {
             cuisine: "Traditional Portuguese",
             price: "€10–14 per person",
             description:
-              "Honest Portuguese cooking at fair prices. The daily lunch special (prato do dia) is generous.",
+              "Unpretentious Portuguese cooking at fair prices. The daily lunch special (prato do dia) is generous.",
             whatToOrder:
               "Bacalhau à Brás or the daily fish special.",
           },
@@ -398,7 +398,7 @@ export const sintraCascaisItinerary: ItineraryData = {
     {
       question: "What if I miss the bus 403?",
       answer:
-        "Bus 403 runs roughly every hour. If you miss one, grab lunch in Sintra or visit an extra site — the next bus will come. Check the Scotturb timetable at Sintra station. In peak season, service is more frequent.",
+        "Bus 403 runs every 60-90 minutes (gaps can stretch to 2 hours in winter). If you miss one, grab lunch in Sintra or visit an extra site — the next bus will come. Check the Carris Metropolitana app for the live schedule rather than relying on posted timetables. In peak season, service is more frequent.",
     },
     {
       question: "Is the Sintra-Cascais detour worth it over just Sintra?",

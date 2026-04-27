@@ -50,7 +50,7 @@ export const attractions: Attraction[] = [
     name: "Moorish Castle (Castelo dos Mouros)",
     type: "palace",
     description:
-      "An 8th-century fortress with ancient stone walls that you can walk along for 360-degree views. Less manicured than Pena, more rugged and atmospheric. The wall circuit takes 30-40 minutes and the views down to the Atlantic and across the Sintra hills are arguably better than from Pena itself. A fraction of Pena's crowds.",
+      "An 8th-century fortress with ancient stone walls that you can walk along for 360-degree views. Less manicured than Pena, more rugged and atmospheric. The wall circuit takes 30-40 minutes and the views — a wider sweep from a lower elevation, different but equally impressive to Pena's Atlantic panorama from above — are a highlight. A fraction of Pena's crowds.",
     duration: "45 min–1 hr",
     cost: "€12",
     crowdLevel: 2,
@@ -71,7 +71,7 @@ export const attractions: Attraction[] = [
     verdict: "worth-it",
     verdictText: "The one most people skip — don't",
     bestTime: "Morning (best garden light)",
-    tip: "No bus 434 service here. Take a tuk-tuk (€5-8) or taxi from the town center. The walk is 3km uphill — not recommended.",
+    tip: "Bus 435 runs here from Sintra station (limited frequency — check Carris Metropolitana schedule). Alternatively, take a tuk-tuk (€5-8) or taxi from the town center. The walk is 3km uphill — not recommended.",
   },
   {
     id: "national-palace",
@@ -93,7 +93,7 @@ export const attractions: Attraction[] = [
     name: "Cabo da Roca",
     type: "nature",
     description:
-      "The westernmost point of mainland Europe. A windswept headland with a lighthouse, a stone cross, and dramatic Atlantic cliffs. It's genuinely moving — not a tourist trap. The landscape is completely different from forested Sintra: raw, open, wild. Bring a jacket — it's always colder and windier here. We expected a quick photo stop and ended up staying 90 minutes watching the waves pound the cliffs.",
+      "The westernmost point of mainland Europe. A windswept headland with a lighthouse, a stone cross, and dramatic Atlantic cliffs. It's surprisingly moving — not a tourist trap. The landscape is completely different from forested Sintra: raw, open, wild. Bring a jacket — it's always colder and windier here. We expected a quick photo stop and ended up staying 90 minutes watching the waves pound the cliffs.",
     duration: "1–1.5 hrs",
     cost: "€4.50 (bus 403)",
     crowdLevel: 2,
@@ -108,7 +108,7 @@ export const attractions: Attraction[] = [
     name: "Sintra Old Town",
     type: "culture",
     description:
-      "The town center itself deserves time — not just a transit point between palaces. The pastelaria Piriquita has been making travesseiros (almond puff pastries) since 1862. The narrow streets, the antique shops, and the views of the National Palace chimneys from the surrounding hills are lovely, especially in the late afternoon when crowds thin.",
+      "The town center itself deserves time — not just a transit point between palaces. Piriquita, a Sintra bakery since 1862, is the original creator of the travesseiro pastry (almond puff pillow) — invented in the 1940s and still made to the original recipe. The narrow streets, the antique shops, and the views of the National Palace chimneys from the surrounding hills are lovely, especially in the late afternoon when crowds thin.",
     duration: "1–2 hrs",
     cost: "Free (pastries €2-4)",
     crowdLevel: 3,

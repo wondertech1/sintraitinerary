@@ -100,7 +100,7 @@ export default function BudgetPage() {
         category="Budget Guide"
         title="Sintra on a Budget"
         subtitle="Free attractions, money-saving tricks, and a complete under-€30 day trip plan."
-        lastVerified="March 2026"
+        lastVerified="April 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -256,8 +256,6 @@ export default function BudgetPage() {
         <RelatedGuides links={[
           { label: "Tickets & Passes", href: "/sintra-tickets-and-passes", description: "All prices and combo deals" },
           { label: "Where to Eat", href: "/where-to-eat-in-sintra", description: "Budget restaurant picks" },
-          { label: "Walking Routes", href: "/sintra-walking-routes", description: "Free trails between palaces" },
-          { label: "Getting to Sintra", href: "/getting-to-sintra-from-lisbon", description: "Cheapest transport options" },
         ]} />
 
         <FAQSection faqs={budgetFaqs} />

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | Sintra Itinerary",
   },
   description:
-    "Plan your perfect Sintra day trip. Honest itineraries for 1-2 days covering Pena Palace, Quinta da Regaleira, Moorish Castle, and more. Real prices, realistic timing, no fluff.",
+    "Plan your perfect Sintra day trip. Practical itineraries for 1-2 days covering Pena Palace, Quinta da Regaleira, Moorish Castle, and more. Real prices, realistic timing, no fluff.",
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",

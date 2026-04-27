@@ -10,7 +10,7 @@ import { websiteSchema, faqSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Sintra Itinerary 2026 — Day Trip Guide from Lisbon",
   description:
-    "Plan your perfect Sintra day trip. Honest itineraries for 1-2 days covering Pena Palace, Quinta da Regaleira, Moorish Castle, and more. Real prices, realistic timing, no fluff.",
+    "Plan your perfect Sintra day trip. Real itineraries for 1-2 days covering Pena Palace, Quinta da Regaleira, Moorish Castle, and more. Real prices, realistic timing, no fluff.",
   alternates: { canonical: "https://sintraitinerary.com" },
 };
 

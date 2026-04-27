@@ -34,7 +34,7 @@ export default function OneDayItineraryPage() {
       <div className="mx-auto max-w-[900px] px-6 py-10">
         <ScrollReveal>
           <ProTip variant="tip">
-            After our third visit to Sintra, we finally nailed the timing for
+            After our third visit to Sintra, we at Sintra Itinerary finally nailed the timing for
             each of these routes. The biggest mistake we see people make is
             arriving after 10am — by then the bus 434 queue alone eats 30+
             minutes of your day.

@@ -7,7 +7,7 @@ export const nationalPalace: PalaceGuideData = {
   metaTitle: "National Palace of Sintra Guide — The Easy Palace Visit (2026)",
   metaDescription:
     "National Palace guide: the easiest palace to visit in Sintra. Right in the town center, no hills, medieval kitchens with iconic chimneys, and a decent audio guide. Worth it?",
-  lastVerified: "March 2026",
+  lastVerified: "February 2026",
 
   verdict: {
     rating: "conditional",
@@ -35,7 +35,7 @@ export const nationalPalace: PalaceGuideData = {
       id: "highlights",
       title: "The Highlights (What's Actually Worth Seeing)",
       content:
-        "The National Palace rewards attention to detail more than spectacle:\n\n**The Magpie Room (Sala das Pegas)** — The ceiling is painted with magpies, each holding a rose and a ribbon inscribed with 'por bem' (for good). Legend says King João I commissioned it after being caught kissing a lady-in-waiting — each magpie represents one of the court gossips who witnessed it.\n\n**The Swan Room (Sala dos Cisnes)** — The largest hall, with a coffered ceiling painted with 27 swans, each in a different pose. Used for state banquets. The room is impressive for its scale.\n\n**The Moorish Tilework** — The oldest decorative tiles in Portugal (15th century), brought directly from Seville. Found throughout the palace. The geometric patterns and colors are still vivid.\n\n**The Kitchen** — The reason for those twin chimneys. The enormous medieval kitchen has the largest chimney system in Portugal. We stood inside and looked straight up through the 33-meter chimneys — the light falling down from the top creates this cathedral-like effect that caught us completely off guard. Genuinely impressive.\n\n**The Arab Room** — Small but exquisite. A 15th-century room entirely covered in geometric Moorish tiles with a central fountain. The best single room in the palace.",
+        "The National Palace rewards attention to detail more than spectacle:\n\n**The Magpie Room (Sala das Pegas)** — The ceiling has the best story in Sintra: King João I was caught kissing a lady-in-waiting by his queen. His defense — 'por bem' (with good intentions) — became the court joke. The king responded by commissioning 136 magpies painted on the ceiling, one for each gossiping courtier, each holding a rose (for the lady) and the motto 'por bem' in its beak.\n\n**The Swan Room (Sala dos Cisnes)** — The largest hall, with a coffered ceiling painted with 27 swans, each in a different pose. Used for state banquets. The room is impressive for its scale.\n\n**The Moorish Tilework** — The oldest decorative tiles in Portugal (15th century), brought directly from Seville. Found throughout the palace. The geometric patterns and colors are still vivid.\n\n**The Kitchen** — The reason for those twin chimneys. The enormous medieval kitchen has the largest chimney system in Portugal. We stood inside and looked straight up through the 33-meter chimneys — the light falling down from the top creates this cathedral-like effect that caught us completely off guard. Genuinely impressive.\n\n**The Arab Room** — Small but exquisite. A 15th-century room entirely covered in geometric Moorish tiles with a central fountain. The best single room in the palace.",
     },
     {
       id: "audio-guide",

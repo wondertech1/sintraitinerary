@@ -50,7 +50,7 @@ export const individualTickets: TicketOption[] = [
     notes: "Includes interior rooms. Expect 30-60 min queue in peak season.",
     worthIt: "conditional",
     worthItReason:
-      "Only worth it off-season (Nov-Feb) when queues are short. The interior is genuinely disappointing compared to the exterior.",
+      "Only worth it off-season (Nov-Feb) when queues are short. The interior is noticeably disappointing compared to the exterior.",
     buyOnlineUrl: "https://www.parquesdesintra.pt",
   },
   {

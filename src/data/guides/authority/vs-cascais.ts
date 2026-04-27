@@ -72,7 +72,7 @@ export const scenarios = [
   {
     scenario: "First time in Lisbon area",
     recommendation: "sintra" as const,
-    reason: "Sintra offers experiences you can't find elsewhere in Europe. Cascais is pleasant but replaceable. If you only have one day trip, Sintra wins.",
+    reason: "Sintra offers experiences you can't find elsewhere in Europe. Cascais is pleasant but replaceable. If you only have one day trip, Sintra wins. For more Lisbon day trip options beyond Sintra and Cascais, see <a href=\"https://lisbonitinerary.com/guides/day-trips-from-lisbon\" target=\"_blank\" rel=\"noopener\">day trips from Lisbon</a>.",
   },
   {
     scenario: "Already visited Sintra",
@@ -102,7 +102,7 @@ export const scenarios = [
   {
     scenario: "Two spare days",
     recommendation: "both" as const,
-    reason: "Do Sintra on Day 1 (palaces), Cascais on Day 2 (beach + seafood). Or: Sintra palaces → Bus 403 → Cabo da Roca → Cascais in one epic day, with Cascais proper the next day. We did the full Sintra-Roca-Cascais loop and ended up at a seaside restaurant in Cascais watching the sunset — genuinely one of the best days of travel we've had.",
+    reason: "Do Sintra on Day 1 (palaces), Cascais on Day 2 (beach + seafood). Or: Sintra palaces → Bus 403 → Cabo da Roca → Cascais in one epic day, with Cascais proper the next day. We did the full Sintra-Roca-Cascais loop and ended up at a seaside restaurant in Cascais watching the sunset — easily one of the best days of travel we've had.",
   },
 ];
 

@@ -17,9 +17,9 @@ import { Crown, Clock, Euro, Users, ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title:
-    "Which Sintra Palaces to Visit (2026) — Honest Rankings & Comparison",
+    "Which Sintra Palaces to Visit (2026) — Unfiltered Rankings & Comparison",
   description:
-    "Ranked comparison of all 5 Sintra palaces with ratings, costs, and honest verdicts. Find out which palaces are worth your time based on your travel style.",
+    "Ranked comparison of all 5 Sintra palaces with ratings, costs, and frank verdicts. Find out which palaces are worth your time based on your travel style.",
   alternates: {
     canonical:
       "https://sintraitinerary.com/guides/which-sintra-palaces-to-visit",
@@ -83,13 +83,13 @@ export default function WhichPalacesPage() {
       <GuideHero
         category="Palace Comparison"
         title="Which Sintra Palaces Should You Actually Visit?"
-        subtitle="We've visited all five across multiple trips. Here's our honest ranking — because your time and money are limited."
+        subtitle="We at Sintra Itinerary have visited all five across multiple trips. Here's our unvarnished ranking — because your time and money are limited."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Guides", href: "/things-to-do-in-sintra" },
           { label: "Which Palaces to Visit" },
         ]}
-        lastVerified="March 2026"
+        lastVerified="February 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">

@@ -7,7 +7,7 @@ export const monserratePalace: PalaceGuideData = {
   metaTitle: "Monserrate Palace Guide — Sintra's Best-Kept Secret (2026)",
   metaDescription:
     "Why Monserrate Palace is the most underrated site in Sintra. Alhambra-quality stucco, 33 hectares of botanical gardens, and almost no tourists. Complete visitor guide.",
-  lastVerified: "March 2026",
+  lastVerified: "February 2026",
 
   verdict: {
     rating: "worth-it",
@@ -47,7 +47,7 @@ export const monserratePalace: PalaceGuideData = {
       id: "getting-there",
       title: "Getting to Monserrate (The Only Tricky Part)",
       content:
-        "The slight inconvenience of Monserrate is access. It's 3km from the town center, mostly uphill. Bus 435 serves Monserrate but runs with limited frequency.\n\n**Bus 435**: From Sintra station, check the Carris Metropolitana schedule. Limited departures, but the cheapest option.\n\n**Tuk-tuk** (recommended): €5-10 from the town center, 5 minutes. Ask the driver to wait or arrange a pickup time for your return.\n\n**Taxi/Uber**: €6-10 from town. More reliable for the return trip.\n\n**Walking**: 3km, 35-40 minutes, mostly uphill. Doable but not enjoyable in summer heat. The road has no sidewalk in places.\n\n**Driving**: Free parking at the palace. This is one case where having a car is genuinely useful.\n\nThe tuk-tuk is the smart move for most visitors. Budget €10-16 round trip.",
+        "The slight inconvenience of Monserrate is access. It's 3km from the town center, mostly uphill. Bus 435 serves Monserrate but runs with limited frequency.\n\n**Bus 435**: From Sintra station, check the Carris Metropolitana schedule. Limited departures, but the cheapest option.\n\n**Tuk-tuk** (recommended): €5-10 from the town center, 5 minutes. Ask the driver to wait or arrange a pickup time for your return.\n\n**Taxi/Uber**: €6-10 from town. More reliable for the return trip.\n\n**Walking**: 3km, 35-40 minutes, mostly uphill. Doable but not enjoyable in summer heat. The road has no sidewalk in places.\n\n**Driving**: Free parking at the palace. This is one case where having a car is actually useful.\n\nThe tuk-tuk is the smart move for most visitors. Budget €10-16 round trip.",
     },
   ],
 
@@ -124,7 +124,7 @@ export const monserratePalace: PalaceGuideData = {
     {
       question: "Is Monserrate better than Pena Palace?",
       answer:
-        "Different strengths. Pena has the dramatic colorful exterior and the hilltop views. Monserrate has the better interior by far, more interesting gardens, and virtually no crowds. We visited Monserrate the day after Pena, and honestly the stucco work in the Music Room alone outclassed every interior room at Pena combined. If you care about architecture and gardens more than Instagram shots, Monserrate wins.",
+        "Different strengths. Pena has the dramatic colorful exterior and the hilltop views. Monserrate has the better interior by far, more interesting gardens, and virtually no crowds. We visited Monserrate the day after Pena, and in truth the stucco work in the Music Room alone outclassed every interior room at Pena combined. If you care about architecture and gardens more than Instagram shots, Monserrate wins.",
     },
     {
       question: "How long do you need at Monserrate?",

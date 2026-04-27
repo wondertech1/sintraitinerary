@@ -6,13 +6,13 @@ export const moorishCastle: PalaceGuideData = {
   subtitle: "The 20-minute detour from Pena Palace that most people skip — and shouldn't",
   metaTitle: "Moorish Castle Sintra Guide — Best Views, Cheapest Ticket (2026)",
   metaDescription:
-    "Moorish Castle guide: the best-value attraction in Sintra at €12. Better views than Pena Palace, a fraction of the crowds, and a 15-min walk between them.",
-  lastVerified: "March 2026",
+    "Moorish Castle guide: the best-value attraction in Sintra at €12. Different but equally impressive views to Pena Palace — a wider 360-degree sweep from a lower elevation — with a fraction of the crowds, and a 20-25 min walk between them.",
+  lastVerified: "February 2026",
 
   verdict: {
     rating: "worth-it",
     summary:
-      "The Moorish Castle (Castelo dos Mouros) is the best value in Sintra. For €12 you get 360-degree panoramic views from 8th-century fortress walls, a fraction of Pena's crowds, and a genuinely atmospheric walk through history. The wall circuit takes 30-40 minutes and every section offers different perspectives — down to the town, out to the Atlantic, and across to Pena Palace. Most day-trippers skip it because it sounds minor next to the palaces. Their loss.",
+      "The Moorish Castle (Castelo dos Mouros) is the best value in Sintra. For €12 you get 360-degree panoramic views from 8th-century fortress walls, a fraction of Pena's crowds, and a remarkably atmospheric walk through history. The wall circuit takes 30-40 minutes and every section offers different perspectives — down to the town, out to the Atlantic, and across to Pena Palace. Most day-trippers skip it because it sounds minor next to the palaces. Their loss.",
     bestFor: "Anyone who likes views, history, or walking. Families with older kids love it.",
     skipIf: "You're exhausted after Pena and physically can't handle more stairs. The walls are steep.",
   },
@@ -22,7 +22,7 @@ export const moorishCastle: PalaceGuideData = {
     cost: "€12 (or €21 combo with Pena Palace)",
     crowdLevel: 2,
     bestTime: "Any time — rarely crowded",
-    gettingThere: "15-min walk from Pena Palace (downhill) or bus 434",
+    gettingThere: "20-25 min walk from Pena Palace gate-to-gate (downhill, through Pena's grounds) or bus 434",
     openingHours: "9:30am–6pm (last entry 5pm)",
     website: "parquesdesintra.pt",
   },
@@ -47,7 +47,7 @@ export const moorishCastle: PalaceGuideData = {
       id: "pena-connection",
       title: "Combining with Pena Palace",
       content:
-        "The Moorish Castle is a 15-minute walk downhill from Pena Palace, making this the natural combination:\n\n**Route:** Exit Pena Palace grounds, follow signs to Castelo dos Mouros. The path is through forest, paved, and downhill. Well-signed.\n\n**Timing:** Visit Pena first (arrive 9:30am), spend 2 hours, then walk to the Moorish Castle. You'll arrive around 11:30am — perfect timing before it gets warm.\n\n**Ticket tip:** Buy the combo ticket (€21 for Pena grounds + Moorish Castle) at the Pena Palace entrance. Saves €3.\n\n**Return to town:** From the Moorish Castle, walk downhill to Sintra center (20 minutes) or catch bus 434 from the castle stop. Walking is scenic and easy (all downhill).",
+        "The Moorish Castle is a 20-25 minute walk gate-to-gate from Pena Palace (including the walk through Pena's grounds to the nearest exit), making this the natural combination:\n\n**Route:** Exit Pena Palace grounds, follow signs to Castelo dos Mouros. The path is through forest, paved, and downhill. Well-signed.\n\n**Timing:** Visit Pena first (arrive 9:30am), spend 2 hours, then walk to the Moorish Castle. You'll arrive around 11:45am — perfect timing before it gets warm.\n\n**Ticket tip:** Buy the combo ticket (€21 for Pena grounds + Moorish Castle) at the Pena Palace entrance. Saves €3.\n\n**Return to town:** From the Moorish Castle, walk downhill to Sintra center (20 minutes) or catch bus 434 from the castle stop. Walking is scenic and easy (all downhill).",
     },
   ],
 
@@ -66,7 +66,7 @@ export const moorishCastle: PalaceGuideData = {
         price: "€21",
         includes: "Pena Palace grounds + Moorish Castle. Saves €3.",
         recommended: true,
-        note: "The best deal if visiting both (and you should — they're a 15-minute walk apart).",
+        note: "The best deal if visiting both (and you should — they're a 20-25 minute walk apart gate-to-gate).",
       },
     ],
     buyOnline: "Buy at parquesdesintra.pt. Moorish Castle rarely sells out — walk-up is usually fine.",
@@ -95,9 +95,9 @@ export const moorishCastle: PalaceGuideData = {
   ],
 
   practicalTips: [
-    "Visit after Pena Palace, not before. The 15-minute walk between them is downhill in this direction.",
+    "Visit after Pena Palace, not before. The 20-25 minute walk gate-to-gate is downhill in this direction (including through Pena's grounds).",
     "The walls are exposed — no shade. Bring water and sun protection in summer.",
-    "Comfortable shoes with grip are essential. The wall-top walkway is stone and can be slippery when damp.",
+    "Comfortable shoes with grip are essential. The wall-top walkway is stone and can be slippery when damp. The wall walkways become treacherous in rain — the stone surface is extremely slippery when wet. Consider skipping the full wall circuit in wet weather and sticking to the lower paths.",
     "Kids love it — walking on castle walls is inherently exciting. But watch small children near the edges. Parapets are low.",
     "The cistern area near the entrance is easily missed. The archaeological remains of the medieval settlement are there.",
     "Allow 45 min minimum. We nearly made the mistake of rushing through in 20 minutes ourselves — it was only because we turned a corner on the western wall and saw the Atlantic stretched out below us that we slowed down. Don't miss the western walls and Royal Tower.",
@@ -107,12 +107,12 @@ export const moorishCastle: PalaceGuideData = {
     {
       question: "Is the Moorish Castle worth visiting?",
       answer:
-        "Yes — it's the best value in Sintra. We almost skipped it because we were tired after Pena, and it would have been our biggest regret of the trip. At €12 (or €21 combo with Pena), you get better panoramic views than Pena Palace itself, 1,000-year-old walls to walk along, and a fraction of the crowds. It takes under an hour and is a 15-minute walk from Pena. There's no reason to skip it.",
+        "Yes — it's the best value in Sintra. We almost skipped it because we were tired after Pena, and it would have been our biggest regret of the trip. At €12 (or €21 combo with Pena), you get different but equally impressive views — a wider 360-degree sweep from a lower elevation, compared to Pena's dramatic Atlantic panorama from above. Plus 1,000-year-old walls to walk along, and a fraction of the crowds. It takes under an hour and is a 15-minute walk from Pena. There's no reason to skip it.",
     },
     {
       question: "How do you get to the Moorish Castle?",
       answer:
-        "Walk 15 minutes downhill from Pena Palace (well-signed), take bus 434 (stops at the castle), or walk uphill from Sintra town (30 min, steep). The recommended route is Pena first, then walk downhill to the castle.",
+        "Walk 20-25 minutes downhill from Pena Palace gate-to-gate (well-signed, through Pena's grounds to the exit), take bus 434 (stops at the castle), or walk uphill from Sintra town (30 min, steep). The recommended route is Pena first, then walk downhill to the castle.",
     },
     {
       question: "Is the Moorish Castle safe for kids?",

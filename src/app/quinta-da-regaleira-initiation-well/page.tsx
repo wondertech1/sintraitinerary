@@ -87,13 +87,13 @@ export default function InitiationWellPage() {
         category="Deep Dive"
         title="The Initiation Well at Quinta da Regaleira"
         subtitle="27 meters underground, 9 levels of Masonic symbolism, and a secret tunnel to a lake. Sintra's most photographed attraction, properly explained."
-        lastVerified="March 2026"
+        lastVerified="February 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
         <ScrollReveal>
           <p className="mb-12 font-body text-base leading-relaxed text-granito/80">
-            We descended the Initiation Well three times across different visits to Sintra, and each time the experience felt completely different — morning light filtering down the spiral, midday crowds queuing for photos, a foggy winter afternoon with the place entirely to ourselves. Here is everything we know about making the most of Sintra&apos;s most extraordinary attraction.
+            We at Sintra Itinerary descended the Initiation Well three times across different visits to Sintra, and each time the experience felt completely different — morning light filtering down the spiral, midday crowds queuing for photos, a foggy winter afternoon with the place entirely to ourselves. Here is everything we know about making the most of Sintra&apos;s most extraordinary attraction.
           </p>
         </ScrollReveal>
 

@@ -21,7 +21,7 @@ export const transportOptions: TransportOption[] = [
     duration: "40 minutes",
     frequency: "Every 30 minutes",
     description:
-      "The best option for most visitors. Trains depart from Rossio station in Baixa (Lisbon's historic center). You need a Viva Viagem card (€0.50, reloadable) or a Lisboa Card. The journey follows the scenic route through the Sintra hills.",
+      "The best option for most visitors. Trains depart from Rossio station in Baixa (Lisbon's historic center). You need a Viva Viagem card (€0.50, reloadable) or a Lisboa Card. Note: Lisbon is transitioning from Viva Viagem to the Navegante card system — check current availability when you arrive. The journey follows the scenic route through the Sintra hills. Planning your Lisbon base? See our <a href=\"https://lisbonitinerary.com/guides/where-to-stay-in-lisbon\" target=\"_blank\" rel=\"noopener\">where to stay in Lisbon guide</a> for the best neighborhoods near Rossio station.",
     pros: [
       "Cheapest option at €4.70 return",
       "Runs frequently (every 30 min)",
@@ -133,7 +133,7 @@ export const gettingAroundSintra = [
     name: "Bus 403",
     route: "Sintra Station → Cabo da Roca → Cascais",
     cost: "€4.50 per ride",
-    frequency: "~every hour (check schedule at station)",
+    frequency: "every 60-90 minutes (gaps can stretch to 2 hours in winter — check the Carris Metropolitana app for the live schedule)",
     notes:
       "Only way to reach Cabo da Roca by public transport. From Cabo da Roca, you can continue to Cascais (30 min) and take the train directly to Lisbon from there.",
   },
@@ -158,7 +158,7 @@ export const gettingHereFaqs = [
   {
     question: "Should I rent a car to visit Sintra?",
     answer:
-      "No. Parking in Sintra is extremely limited and expensive. The narrow roads get congested. The train + bus 434 + walking is more practical. The only exception: if you want to visit Cabo da Roca and the beaches on the same day.",
+      "No. Parking in Sintra is extremely limited and congested. The train + bus 434 + walking is more practical. If you do drive: free parking at Volta do Duche lot near the town center (fills by 10am in summer), free street parking in São Pedro de Penaferrim (15-minute walk from the center), and a small paid lot near the train station. Never attempt to drive up to Pena Palace — the road is single-lane with no parking at the top for private vehicles. The only exception to driving: if you want to combine Cabo da Roca and the beaches in one day.",
   },
   {
     question: "How do I get back to Lisbon from Cabo da Roca?",

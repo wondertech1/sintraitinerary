@@ -69,7 +69,7 @@ export const restaurants: Restaurant[] = [
     priceRange: "€",
     mustOrder: "Travesseiros (puff pastry with almond cream), galão (milky coffee)",
     verdict:
-      "The best café in town. Better pastries than the famous Piriquita and a quieter atmosphere. The garden seating is lovely.",
+      "A calmer atmosphere than the famous Piriquita, with excellent coffee and fresh pastries. For the original travesseiros and queijadas, Piriquita remains the classic — but Saudade is the better place to sit down and linger. The garden seating is lovely.",
     bestFor: "Morning coffee before heading to the palaces. Quick pastry stop.",
     avoidIf: "You need a full meal — it's a café, not a restaurant.",
     googleMapsArea: "Avenida Dr. Miguel Bombarda, Sintra",
@@ -81,7 +81,7 @@ export const restaurants: Restaurant[] = [
     priceRange: "€",
     mustOrder: "Travesseiros and queijadas de Sintra — the two iconic Sintra pastries",
     verdict:
-      "Touristy but the pastries are genuinely good. Buy to-go and eat on a bench — the seating area is cramped and overpriced.",
+      "Touristy but the pastries are actually good. Buy to-go and eat on a bench — the seating area is cramped and overpriced.",
     bestFor: "Tasting the two famous Sintra pastries. Take-away only.",
     avoidIf: "You expect a peaceful sit-down — it's always packed.",
     googleMapsArea: "Rua das Padarias, Sintra town center",
@@ -141,10 +141,22 @@ export const restaurants: Restaurant[] = [
     priceRange: "€",
     mustOrder: "Whatever daily special looks good. Fresh fruit for the trail.",
     verdict:
-      "The local market has a few food stalls with honest prices. Great for picking up picnic supplies before heading to the palaces.",
+      "The local market has a few food stalls with fair prices. Great for picking up picnic supplies before heading to the palaces.",
     bestFor: "Budget travelers, picnic assemblers.",
     avoidIf: "You want a proper restaurant experience.",
     googleMapsArea: "Sintra municipal market",
+  },
+  {
+    name: "Tulhas / Cantinho de São Pedro",
+    area: "off-the-radar",
+    cuisine: "Portuguese traditional",
+    priceRange: "€",
+    mustOrder: "Prato do dia (daily special), grilled fish of the day",
+    verdict:
+      "For where locals actually eat, walk 15 minutes from the tourist center to São Pedro de Penaferrim. Tulhas and Cantinho de São Pedro serve traditional Portuguese food at local prices, without the tourist markup of town-center restaurants. Menus change daily, portions are generous, and you're unlikely to hear English being spoken at the next table.",
+    bestFor: "Budget travelers and anyone who wants to eat where Sintra residents eat.",
+    avoidIf: "You need the convenience of town center — the 15-minute walk is easy but adds up if you're short on time.",
+    googleMapsArea: "São Pedro de Penaferrim, 15 min walk from Sintra town center",
   },
 ];
 
@@ -215,11 +227,14 @@ export const picnicSpots: PicnicSpot[] = [
   },
 ];
 
+export const tippingNote =
+  "Tipping in Portugal: 5-10% at sit-down restaurants if you're happy with the service. At cafés, round up to the nearest euro. Tipping is appreciated but not obligatory.";
+
 export const restaurantsFaqs = [
   {
     question: "Where should I eat lunch in Sintra?",
     answer:
-      "Tascantiga for the best food, Romaria de Baco for honest traditional cooking, or Café Saudade for a quick pastry stop. Avoid Café Paris (tourist trap) and any restaurant with photos on the menu.",
+      "Tascantiga for the best food, Romaria de Baco for good traditional cooking, or Café Saudade for a quick pastry stop. Avoid Café Paris (tourist trap) and any restaurant with photos on the menu.",
   },
   {
     question: "What are travesseiros and queijadas?",
@@ -229,7 +244,7 @@ export const restaurantsFaqs = [
   {
     question: "Is food expensive in Sintra?",
     answer:
-      "Tourist-area restaurants charge 10-20% more than Lisbon. A lunch main is €12-18. But pastries and café stops are cheap (€2-5). We spent about €14 per person for a generous prato do dia with wine at Romaria de Baco — honestly the best-value lunch in town. For even cheaper: pack picnic supplies from the town market.",
+      "Tourist-area restaurants charge 10-20% more than Lisbon. A lunch main is €12-18. But pastries and café stops are cheap (€2-5). We spent about €14 per person for a generous prato do dia with wine at Romaria de Baco — easily the best-value lunch in town. For even cheaper: pack picnic supplies from the town market.",
   },
   {
     question: "Should I eat before or after visiting palaces?",

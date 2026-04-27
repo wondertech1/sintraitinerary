@@ -33,7 +33,7 @@ export interface TouristTrap {
 export const sintraPastries: LocalPastry[] = [
   {
     name: "Travesseiros",
-    origin: "Piriquita bakery, since 1862",
+    origin: "Piriquita bakery (est. 1862) — travesseiro recipe created in the 1940s",
     description:
       "Sintra's signature pastry — flaky puff pastry rolled into a pillow shape ('travesseiro' means pillow), filled with almond and egg cream. The original recipe is a closely guarded secret. Best eaten warm, when the pastry shatters and the filling is molten. We arrived at Piriquita at 9am and caught a batch straight from the oven — the almond cream was still liquid inside. Arguably better than pastel de nata.",
     whereToTry: "Piriquita (the original) or Café Saudade (less crowded, equally good)",
@@ -46,10 +46,10 @@ export const sintraPastries: LocalPastry[] = [
     origin: "Recipes dating to the 13th century",
     description:
       "Tiny cheese-and-egg tarts in a paper-thin crispy shell. The name comes from 'queijo' (cheese), though the filling is more custard than cheese. Subtly sweet with cinnamon. Sintra's oldest pastry — medieval manuscripts reference queijadas as a form of tax payment to the local monastery.",
-    whereToTry: "Piriquita, Casa Piriquita II, or Fábrica das Verdadeiras Queijadas da Sapa",
+    whereToTry: "Piriquita or Fábrica das Verdadeiras Queijadas da Sapa — try both and pick a side. Piriquita isn't the only queijada maker in town: Fábrica das Verdadeiras Queijadas da Sapa has been producing queijadas since 1756 and locals are fiercely divided over which is better.",
     price: "€1.50–1.80 each",
     verdict: "must-try",
-    verdictText: "Medieval recipe, still perfect",
+    verdictText: "Medieval recipe, still perfect — and a genuine local debate",
   },
   {
     name: "Fofos de Belas",
@@ -75,7 +75,7 @@ export const sintraPastries: LocalPastry[] = [
     name: "Pastéis de Nata (Sintra Version)",
     origin: "Lisbon origin, local adaptation",
     description:
-      "Every café sells them, but Sintra's are unremarkable compared to Lisbon's Pastéis de Belém. Don't waste stomach space on a pastel de nata in Sintra when you could be eating travesseiros or queijadas — the local specialties you can't get anywhere else.",
+      "Every café sells them, but Sintra's are unremarkable compared to Lisbon's Pastéis de Belém. Don't waste stomach space on a pastel de nata in Sintra when you could be eating travesseiros or queijadas — the local specialties you can't get anywhere else. See our <a href=\"https://lisbonitinerary.com/guides/lisbon-food-guide\" target=\"_blank\" rel=\"noopener\">Lisbon food guide</a> for the best nata spots.",
     whereToTry: "Skip — eat them in Lisbon instead",
     price: "€1.50",
     verdict: "skip",
@@ -211,7 +211,7 @@ export const touristTraps: TouristTrap[] = [
   {
     name: "Any restaurant with photos on the menu",
     why: "A universal sign of tourist-oriented restaurants worldwide. The food is generic, the portions are small, and the prices are inflated 20-30%.",
-    instead: "Look for handwritten daily specials (prato do dia) on a chalkboard — that's the local signal for honest food.",
+    instead: "Look for handwritten daily specials (prato do dia) on a chalkboard — that's the local signal for real food.",
   },
   {
     name: "Pena Palace café/snack bars",
@@ -229,7 +229,7 @@ export const localFoodFaqs = [
   {
     question: "What is Sintra's signature food?",
     answer:
-      "Travesseiros and queijadas are the two iconic Sintra pastries. Travesseiros are flaky almond-cream puffs (since 1862) and queijadas are tiny cheese-egg tarts (recipes from the 13th century). Both cost under €2 and are available at Piriquita or Café Saudade.",
+      "Travesseiros and queijadas are the two iconic Sintra pastries. Travesseiros are flaky almond-cream puffs — invented in the 1940s by Piriquita, a Sintra bakery since 1862 — and queijadas are tiny cheese-egg tarts (recipes from the 13th century). Both cost under €2 and are available at Piriquita or Café Saudade.",
   },
   {
     question: "Is the Sintra food walk self-guided or do I need a tour?",

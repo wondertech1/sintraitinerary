@@ -55,7 +55,7 @@ export default function DayTripPage() {
       <GuideHero
         category="Day Trip Planning"
         title="Lisbon to Sintra Day Trip"
-        subtitle="Two tested routes with minute-by-minute timelines. We've walked both of these routes multiple times to nail down the timing — leave Lisbon at 7:30am, see 3 palaces, eat lunch, be home by 5pm."
+        subtitle="Two tested routes with minute-by-minute timelines. We at Sintra Itinerary have walked both of these routes multiple times to nail down the timing — leave Lisbon at 7:30am, see 3 palaces, eat lunch, be home by 5pm."
         lastVerified="March 2026"
       />
 

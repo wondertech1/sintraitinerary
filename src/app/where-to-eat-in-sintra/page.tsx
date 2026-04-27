@@ -20,7 +20,7 @@ import { UtensilsCrossed, TreePine, CheckCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Where to Eat in Sintra (2026) — Best Restaurants, Pastries & Local Dishes",
   description:
-    "Honest restaurant recommendations for Sintra including the best travesseiros, queijadas, and where to eat lunch between palaces. Tourist traps flagged.",
+    "Skip the overpriced cafés near the palace gates. Where to find Sintra's best travesseiros, queijadas, and a proper lunch between palaces — every tourist trap flagged.",
   alternates: {
     canonical: "https://sintraitinerary.com/where-to-eat-in-sintra",
   },
@@ -46,8 +46,8 @@ export default function RestaurantsPage() {
       <GuideHero
         category="Food Guide"
         title="Where to Eat in Sintra"
-        subtitle="The good, the bad, and the tourist traps — honest restaurant picks with the must-try local dishes."
-        lastVerified="March 2026"
+        subtitle="The good, the bad, and the tourist traps — candid restaurant picks with the must-try local dishes."
+        lastVerified="February 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -112,7 +112,7 @@ export default function RestaurantsPage() {
         {/* Restaurants */}
         <SectionHeading
           label="Restaurants"
-          heading="Where to Eat — Honest Picks"
+          heading="Where to Eat — Real Picks"
         />
 
         <div className="mt-8 space-y-4">

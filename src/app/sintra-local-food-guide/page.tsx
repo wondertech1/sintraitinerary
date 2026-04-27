@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title:
     "Pastéis de Sintra & Local Food Guide (2026) — What to Eat, Where to Find It, What to Skip",
   description:
-    "Deep dive into Sintra's food scene: travesseiros, queijadas, local dishes, a self-guided food walk, and the tourist traps to avoid. The honest food guide.",
+    "Deep dive into Sintra's food scene: travesseiros, queijadas, local dishes, a self-guided food walk, and the tourist traps to avoid. The real food guide.",
   alternates: {
     canonical: "https://sintraitinerary.com/sintra-local-food-guide",
   },
@@ -81,13 +81,13 @@ export default function LocalFoodGuidePage() {
         category="Food Guide"
         title="Pastéis de Sintra & Local Food Guide"
         subtitle="The pastries that have defined this town for 700 years, the savory dishes worth ordering, a self-guided food walk, and the tourist traps to avoid."
-        lastVerified="March 2026"
+        lastVerified="February 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
         <ScrollReveal>
           <p className="mb-12 font-body text-base leading-relaxed text-granito/80">
-            Sintra has been making its own pastries for over 700 years, and we ate our way through every bakery, restaurant, and market stall in town to separate the genuinely special from the tourist-bait — here is everything we found worth ordering.
+            Sintra has been making its own pastries for over 700 years, and we at Sintra Itinerary ate our way through every bakery, restaurant, and market stall in town to separate the actually special from the tourist-bait — here is everything we found worth ordering.
           </p>
         </ScrollReveal>
 

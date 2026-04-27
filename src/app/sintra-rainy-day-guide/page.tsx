@@ -83,7 +83,7 @@ export default function RainyDayGuidePage() {
         category="Practical Guide"
         title="Sintra Rainy Day Guide"
         subtitle="Rain doesn't ruin Sintra — it transforms it. Fog-wrapped palaces, empty tunnels, and atmospheric gardens. Here's how to make the most of it."
-        lastVerified="March 2026"
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -119,7 +119,7 @@ export default function RainyDayGuidePage() {
               romantics who were <em>inspired</em> by fog, mist, and dramatic weather.
               Pena Palace emerging from clouds, the Initiation Well with water
               streaming down its stone walls, the forests dripping with moss — this
-              is the atmosphere Lord Byron described as a &ldquo;glorious Eden.&rdquo; We&apos;ve visited Sintra in every season, and our rainiest day — a misty March afternoon where we could barely see the Moorish Castle from 50 meters — was genuinely the most memorable.
+              is the atmosphere Lord Byron described as a &ldquo;glorious Eden.&rdquo; We at Sintra Itinerary have visited Sintra in every season, and our rainiest day — a misty March afternoon where we could barely see the Moorish Castle from 50 meters — was actually the most memorable.
             </p>
             <p>
               The practical upside: rain clears out the crowds. Summer Sintra

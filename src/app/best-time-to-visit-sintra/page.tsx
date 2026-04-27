@@ -19,7 +19,7 @@ import { Check, X } from "lucide-react";
 export const metadata: Metadata = {
   title: "Best Time to Visit Sintra (2026) — Month-by-Month Weather & Crowds",
   description:
-    "Find the best month to visit Sintra with our honest month-by-month guide covering weather, crowds, and seasonal highlights. October and May are our top picks.",
+    "Find the best month to visit Sintra with our practical month-by-month guide covering weather, crowds, and seasonal highlights. October and May are our top picks.",
   alternates: {
     canonical: "https://sintraitinerary.com/best-time-to-visit-sintra",
   },
@@ -42,7 +42,7 @@ export default function BestTimePage() {
         category="Practical Guide"
         title="Best Time to Visit Sintra"
         subtitle="Month-by-month breakdown of weather, crowds, and what to expect — so you pick the right time."
-        lastVerified="March 2026"
+        lastVerified="January 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -157,8 +157,7 @@ export default function BestTimePage() {
         <RelatedGuides links={[
           { label: "Sintra in Winter", href: "/sintra-in-winter", description: "Why off-season is extraordinary" },
           { label: "Photography Guide", href: "/sintra-photography-guide", description: "Best light conditions by season" },
-          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Honest pros and cons" },
-          { label: "Travel Tips", href: "/sintra-travel-tips", description: "35+ essential tips" },
+          { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Real pros and cons" },
         ]} />
 
         <FAQSection faqs={bestTimeFaqs} />

@@ -15,7 +15,7 @@ export default function Footer() {
                 Sintra Itinerary
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-nevoa-300">
-                Honest guides to Portugal&apos;s enchanted hilltop. Real prices,
+                Practical guides to Portugal&apos;s enchanted hilltop. Real prices,
                 realistic timing, opinionated verdicts.
               </p>
             </div>

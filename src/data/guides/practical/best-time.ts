@@ -105,6 +105,8 @@ export const monthlyData: MonthData[] = [
     verdictText: "Summer begins. Hot but dry. Crowds building but not peak yet.",
     highlights: [
       "Santos Populares festivals",
+      "Festival de Sintra: classical concerts and ballet inside the palaces themselves — imagine hearing Chopin in the National Palace ballroom. Book at the Sintra municipality website.",
+      "Feira de São Pedro (around June 29): a major local market and festival in São Pedro de Penaferrim",
       "Longest days",
       "Cabo da Roca sunsets",
     ],
@@ -119,7 +121,7 @@ export const monthlyData: MonthData[] = [
     verdict: "mixed",
     verdictText: "Peak crowds and heat. The hilltop palaces are cooler than Lisbon though.",
     highlights: [
-      "Sintra Festival (music events)",
+      "Sintra Festival (June-July): classical concerts and ballet performed inside the palaces — book tickets at the Sintra municipality website",
       "Guaranteed dry weather",
       "5-7°C cooler than Lisbon",
     ],
@@ -194,7 +196,7 @@ export const monthlyData: MonthData[] = [
     verdict: "good",
     verdictText: "Quiet except Christmas week. Holiday markets in Sintra town.",
     highlights: [
-      "Christmas markets",
+      "Christmas markets in the town center",
       "Holiday lighting on palaces",
       "Low season prices",
     ],

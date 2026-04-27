@@ -195,7 +195,7 @@ export const stayScenarios: StayScenario[] = [
     scenario: "I'm doing a day trip from Lisbon",
     recommendation: "Don't stay — return to Lisbon",
     reason:
-      "Sintra is 40 minutes from Lisbon by train. We've done it both ways and honestly, for a single-day visit, the train is so easy that paying for a Sintra hotel makes no sense. Use Lisbon as your base.",
+      "Sintra is 40 minutes from Lisbon by train. We've done it both ways and frankly, for a single-day visit, the train is so easy that paying for a Sintra hotel makes no sense. Use Lisbon as your base.",
   },
   {
     scenario: "I'm visiting for 2-3 days",

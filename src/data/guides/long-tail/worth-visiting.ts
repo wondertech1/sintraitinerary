@@ -16,7 +16,7 @@ export interface Myth {
 
 export const prosOfVisiting: ProConPoint[] = [
   {
-    point: "Quinta da Regaleira is genuinely unique in Europe",
+    point: "Quinta da Regaleira is singular in Europe",
     detail:
       "The Initiation Well, underground tunnels, and symbolism-laden gardens have no equivalent anywhere. It alone justifies the trip. We kept hearing 'skip Sintra, it's a tourist trap' from other travelers in Lisbon. They were dead wrong.",
   },
@@ -49,7 +49,7 @@ export const prosOfVisiting: ProConPoint[] = [
 
 export const consOfVisiting: ProConPoint[] = [
   {
-    point: "Summer crowds are genuinely awful",
+    point: "Summer crowds are remarkably awful",
     detail:
       "July-August means 45-60 min queues at Pena, packed buses, and elbow-to-elbow paths at Regaleira. It significantly diminishes the experience. We visited in peak August once and spent more time in queues than inside the palaces — never again.",
   },
@@ -188,7 +188,7 @@ export const worthVisitingFaqs = [
   {
     question: "Should I skip Sintra and go to Cascais instead?",
     answer:
-      "Only if you've already seen Sintra or genuinely prefer a beach town. Sintra offers unique experiences (Regaleira, Moorish Castle) that have no equivalent in Cascais. Cascais is pleasant but more generic. If you have time for both, visit Sintra first.",
+      "Only if you've already seen Sintra or simply prefer a beach town. Sintra offers unique experiences (Regaleira, Moorish Castle) that have no equivalent in Cascais. Cascais is pleasant but more generic. If you have time for both, visit Sintra first.",
   },
   {
     question: "Is Sintra worth visiting in winter?",

@@ -109,7 +109,7 @@ export const winterItinerary: WinterDay = {
     },
     {
       time: "2:00pm",
-      activity: "Walk to Moorish Castle (15 min)",
+      activity: "Walk to Moorish Castle (20-25 min gate-to-gate)",
       winterNote: "If foggy, the castle walls may be invisible from a distance. The views from the walls — when clouds break — are spectacular.",
     },
     {
