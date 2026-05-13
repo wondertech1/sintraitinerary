@@ -41,7 +41,7 @@ export const tipCategories: TipCategory[] = [
     tips: [
       {
         tip: "Train from Lisbon Rossio: 40 min, €2.35 each way, every 20-30 min. The cheapest and easiest option. Coming from the airport? See our <a href=\"https://lisbonitinerary.com/guides/lisbon-airport-transfer\" target=\"_blank\" rel=\"noopener\">Lisbon airport transfer guide</a> for how to get from the airport to Rossio.",
-        link: { label: "Full transport guide", href: "/getting-to-sintra-from-lisbon" },
+        link: { label: "Full transport guide", href: "/lisbon-to-sintra-day-trip" },
       },
       {
         tip: "Bus 434 (€13.50 day pass) connects the train station to Pena Palace and Moorish Castle. Get on the first bus.",

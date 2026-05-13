@@ -123,7 +123,7 @@ export default function TramGuidePage() {
 
         <RelatedGuides
           links={[
-            { label: "Getting to Sintra", href: "/getting-to-sintra-from-lisbon", description: "All Sintra transport" },
+            { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip", description: "All Sintra transport" },
             { label: "Hidden Gems", href: "/sintra-hidden-gems", description: "More off-beaten-path spots" },
           ]}
         />

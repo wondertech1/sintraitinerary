@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import MistHero from "@/components/home/MistHero";
+import ItineShowcase from "@/components/cta/ItineShowcase";
 import ItineraryChooser from "@/components/home/ItineraryChooser";
 import PalaceShowcase from "@/components/home/PalaceShowcase";
 import SintraToolkit from "@/components/home/SintraToolkit";
@@ -47,6 +48,7 @@ export default function HomePage() {
     <>
       <JsonLd data={[websiteSchema(), faqSchema(homeFaqs)]} />
       <MistHero />
+      <ItineShowcase />
       <ItineraryChooser />
       <PalaceShowcase />
       <SintraToolkit />

@@ -312,8 +312,8 @@ export default function RainyDayGuidePage() {
         <RelatedGuides
           links={[
             {
-              label: "Sintra in Winter",
-              href: "/sintra-in-winter",
+              label: "Best Time to Visit",
+              href: "/best-time-to-visit-sintra#winter",
               description: "Full winter season guide",
             },
             {

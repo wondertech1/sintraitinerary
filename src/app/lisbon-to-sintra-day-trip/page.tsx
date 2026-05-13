@@ -5,14 +5,22 @@ import {
   commonMistakes,
   dayTripFaqs,
 } from "@/data/guides/long-tail/day-trip";
+import {
+  transportOptions,
+  gettingAroundSintra,
+  gettingHereFaqs,
+} from "@/data/guides/getting-here";
 import JsonLd from "@/components/shared/JsonLd";
 import { touristTripSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import GuideHero from "@/components/guides/GuideHero";
+import GuideSection from "@/components/guides/GuideSection";
+import TransportCard from "@/components/guides/TransportCard";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import SectionHeading from "@/components/shared/SectionHeading";
 import FAQSection from "@/components/shared/FAQSection";
 import ContourDivider from "@/components/decorative/ContourDivider";
 import ProTip from "@/components/shared/ProTip";
+import RelatedGuides from "@/components/shared/RelatedGuides";
 import {
   CheckCircle,
   Clock,
@@ -24,13 +32,15 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Lisbon to Sintra Day Trip (2026) — Complete Planning Guide with Routes",
+    "Lisbon to Sintra Day Trip (2026) — Complete Planning Guide with Routes & Transport",
   description:
-    "Step-by-step guide to planning a Sintra day trip from Lisbon. Two tested routes with exact timelines, costs, and common mistakes to avoid.",
+    "Step-by-step guide to planning a Sintra day trip from Lisbon. Train, bus, Uber compared, two tested routes with exact timelines, costs, and common mistakes to avoid.",
   alternates: {
     canonical: "https://sintraitinerary.com/lisbon-to-sintra-day-trip",
   },
 };
+
+const allFaqs = [...dayTripFaqs, ...gettingHereFaqs];
 
 export default function DayTripPage() {
   return (
@@ -40,11 +50,11 @@ export default function DayTripPage() {
           touristTripSchema({
             name: "Lisbon to Sintra Day Trip",
             description:
-              "Complete planning guide for a day trip from Lisbon to Sintra with two tested routes and timelines.",
+              "Complete planning guide for a day trip from Lisbon to Sintra with transport options, two tested routes and timelines.",
             url: "/lisbon-to-sintra-day-trip",
             days: 1,
           }),
-          faqSchema(dayTripFaqs),
+          faqSchema(allFaqs),
           breadcrumbSchema([
             { name: "Home", url: "/" },
             { name: "Lisbon to Sintra Day Trip", url: "/lisbon-to-sintra-day-trip" },
@@ -55,8 +65,8 @@ export default function DayTripPage() {
       <GuideHero
         category="Day Trip Planning"
         title="Lisbon to Sintra Day Trip"
-        subtitle="Two tested routes with minute-by-minute timelines. We at Sintra Itinerary have walked both of these routes multiple times to nail down the timing — leave Lisbon at 7:30am, see 3 palaces, eat lunch, be home by 5pm."
-        lastVerified="March 2026"
+        subtitle="Everything you need: how to get there, how to get around, two tested routes with minute-by-minute timelines, and the mistakes to avoid."
+        lastVerified="May 2026"
       />
 
       <div className="mx-auto max-w-4xl px-4 pb-20">
@@ -67,7 +77,7 @@ export default function DayTripPage() {
               Quick Answer
             </p>
             <p className="font-body text-granito leading-relaxed">
-              <strong>Train from Rossio</strong> (40 min, €2.25). Leave by{" "}
+              <strong>Train from Rossio</strong> (40 min, €2.35). Leave by{" "}
               <strong>7:30-8:00am</strong>. See{" "}
               <strong>Pena + Moorish Castle + Regaleira</strong>. Lunch in town.
               Back in Lisbon by <strong>5pm</strong>. Total cost:{" "}
@@ -76,7 +86,67 @@ export default function DayTripPage() {
           </div>
         </ScrollReveal>
 
-        {/* Before You Go Checklist */}
+        {/* ===== GETTING THERE ===== */}
+        <SectionHeading label="Transport" heading="Getting to Sintra from Lisbon" />
+
+        <div className="mt-8 space-y-6">
+          {transportOptions.map((opt, i) => (
+            <ScrollReveal key={opt.id} delay={i * 0.06}>
+              <TransportCard
+                name={opt.name}
+                icon={opt.icon}
+                cost={opt.cost}
+                duration={opt.duration}
+                frequency={opt.frequency}
+                description={opt.description}
+                pros={opt.pros}
+                cons={opt.cons}
+                recommended={opt.recommended}
+                steps={opt.steps}
+              />
+            </ScrollReveal>
+          ))}
+        </div>
+
+        <ContourDivider className="my-12" />
+
+        {/* ===== GETTING AROUND ===== */}
+        <SectionHeading label="Once There" heading="Getting Around Sintra" />
+
+        <ScrollReveal>
+          <ProTip variant="money-saver">
+            The bus 434 day pass (€7.60) only makes sense if you&apos;re
+            visiting Pena Palace or the Moorish Castle. If you&apos;re doing
+            Regaleira + town center + National Palace, everything is walkable
+            and you don&apos;t need bus 434 at all.
+          </ProTip>
+        </ScrollReveal>
+
+        <div className="mt-6 space-y-4">
+          {gettingAroundSintra.map((option, i) => (
+            <ScrollReveal key={option.name} delay={i * 0.05}>
+              <div className="rounded-[2px] border border-calcario-300 bg-nevoeiro p-4">
+                <h3 className="font-[family-name:var(--font-display)] text-base font-600 text-granito">
+                  {option.name}
+                </h3>
+                <div className="mt-1 flex flex-wrap gap-3 font-[family-name:var(--font-ui)] text-[12px] text-nevoa-600">
+                  <span>{option.cost}</span>
+                  <span>{option.frequency}</span>
+                </div>
+                <p className="mt-1 font-[family-name:var(--font-ui)] text-[12px] text-nevoa-500">
+                  Route: {option.route}
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-granito-light">
+                  {option.notes}
+                </p>
+              </div>
+            </ScrollReveal>
+          ))}
+        </div>
+
+        <ContourDivider className="my-12" />
+
+        {/* ===== BEFORE YOU GO ===== */}
         <SectionHeading label="Prep" heading="Before You Go — Checklist" />
 
         <div className="mt-8 rounded-lg border border-calcário-200 bg-white p-5">
@@ -95,7 +165,7 @@ export default function DayTripPage() {
 
         <ContourDivider className="my-12" />
 
-        {/* Route Options */}
+        {/* ===== ROUTE OPTIONS ===== */}
         {routeOptions.map((route, routeIndex) => (
           <div key={route.name}>
             <SectionHeading
@@ -135,9 +205,7 @@ export default function DayTripPage() {
               {route.timeline.map((step, i) => (
                 <ScrollReveal key={step.time} delay={i * 0.04}>
                   <div className="relative pb-6">
-                    {/* Dot */}
                     <div className="absolute -left-[31px] top-1 h-3 w-3 rounded-full border-2 border-névoa-400 bg-white" />
-
                     <div className="flex items-start gap-3">
                       <span className="shrink-0 font-ui text-xs font-bold text-névoa-600 min-w-[52px]">
                         {step.time}
@@ -210,7 +278,14 @@ export default function DayTripPage() {
           </ProTip>
         </ScrollReveal>
 
-        <FAQSection faqs={dayTripFaqs} />
+        <RelatedGuides links={[
+          { label: "Walking Routes", href: "/sintra-walking-routes", description: "Trails between palaces" },
+          { label: "Sintra on a Budget", href: "/sintra-on-a-budget", description: "Money-saving transport tips" },
+          { label: "Travel Tips", href: "/sintra-travel-tips", description: "35+ essential tips" },
+          { label: "Day Trip from Porto", href: "/sintra-day-trip-from-porto", description: "Alternative origin city" },
+        ]} />
+
+        <FAQSection faqs={allFaqs} />
       </div>
     </>
   );

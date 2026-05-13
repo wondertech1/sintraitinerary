@@ -3,6 +3,8 @@ import Script from "next/script";
 import { Spectral, Alegreya_Sans, Space_Grotesk } from "next/font/google";
 import Navigation from "@/components/shared/Navigation";
 import Footer from "@/components/shared/Footer";
+import ItineTopBanner from "@/components/cta/ItineTopBanner";
+import { StickyPlanCTA } from "@/components/ui/StickyPlanCTA";
 import "./globals.css";
 
 const spectral = Spectral({
@@ -64,7 +66,7 @@ export default function RootLayout({
       lang="en"
       className={`${spectral.variable} ${alegreyaSans.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-[family-name:var(--font-body)]">
+      <body className="min-h-full flex flex-col font-[family-name:var(--font-body)] overflow-x-hidden">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-P6D9HW5S2H"
           strategy="afterInteractive"
@@ -77,8 +79,11 @@ export default function RootLayout({
             gtag('config', 'G-P6D9HW5S2H');
           `}
         </Script>
+        <ItineTopBanner />
         <Navigation />
+        <div className="h-3 md:h-4 bg-nevoeiro" />
         <main className="flex-1 pt-16">{children}</main>
+        <StickyPlanCTA label="Plan Your Trip" href="/plan-my-trip" />
         <Footer />
       </body>
     </html>

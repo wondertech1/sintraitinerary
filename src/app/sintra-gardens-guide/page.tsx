@@ -122,7 +122,7 @@ export default function GardensPage() {
         <RelatedGuides
           links={[
             { label: "Monserrate Guide", href: "/guides/monserrate-palace-guide", description: "Sintra's best gardens" },
-            { label: "Sintra in Spring", href: "/sintra-in-spring", description: "Peak bloom season" },
+            { label: "Best Time to Visit", href: "/best-time-to-visit-sintra#spring", description: "Peak bloom season" },
             { label: "Walking Routes", href: "/sintra-walking-routes", description: "Forest trails between palaces" },
             { label: "Photography Guide", href: "/sintra-photography-guide", description: "Garden photography tips" },
           ]}

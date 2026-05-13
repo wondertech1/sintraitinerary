@@ -26,10 +26,10 @@ export default function Navigation() {
 
   return (
     <header
-      className={`fixed top-0 right-0 left-0 z-50 transition-all duration-500 ${
+      className={`fixed top-[72px] right-0 left-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-nevoeiro/92 shadow-sm backdrop-blur-lg"
-          : "bg-transparent"
+          : "bg-nevoeiro"
       }`}
     >
       <nav className="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-4">

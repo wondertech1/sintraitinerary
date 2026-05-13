@@ -145,7 +145,7 @@ export default function AccessibilityPage() {
 
         <RelatedGuides
           links={[
-            { label: "Getting to Sintra", href: "/getting-to-sintra-from-lisbon", description: "Train and bus details" },
+            { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip", description: "Train and bus details" },
             { label: "National Palace Guide", href: "/guides/national-palace-guide", description: "Most accessible palace" },
           ]}
         />

@@ -17,7 +17,7 @@ const tools = [
     icon: Train,
     title: "Getting to Sintra",
     description: "Train from Rossio, bus 434, tuk-tuks — real costs and the options nobody mentions.",
-    href: "/getting-to-sintra-from-lisbon",
+    href: "/lisbon-to-sintra-day-trip",
     available: true,
   },
   {

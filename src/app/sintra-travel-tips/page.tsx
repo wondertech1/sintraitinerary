@@ -134,7 +134,6 @@ export default function TravelTipsPage() {
               { label: "Where to Eat", href: "/where-to-eat-in-sintra" },
               { label: "Budget Guide", href: "/sintra-on-a-budget" },
               { label: "Family Guide", href: "/sintra-with-kids" },
-              { label: "Getting There", href: "/getting-to-sintra-from-lisbon" },
               { label: "Day Trip Planning", href: "/lisbon-to-sintra-day-trip" },
               { label: "Photography Spots", href: "/sintra-photography-guide" },
               { label: "Walking Routes", href: "/sintra-walking-routes" },
@@ -154,7 +153,7 @@ export default function TravelTipsPage() {
         <RelatedGuides links={[
           { label: "Is Sintra Worth Visiting?", href: "/is-sintra-worth-visiting", description: "Real pros, cons, and verdict" },
           { label: "Sintra vs Cascais", href: "/sintra-vs-cascais", description: "Compare the two day trips" },
-          { label: "Sintra in Winter", href: "/sintra-in-winter", description: "Why off-season is otherworldly" },
+          { label: "Best Time to Visit", href: "/best-time-to-visit-sintra", description: "Season-by-season deep dive" },
           { label: "Cabo da Roca", href: "/cabo-da-roca-guide", description: "Europe's westernmost point" },
         ]} />
 

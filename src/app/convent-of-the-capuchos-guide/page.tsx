@@ -117,7 +117,7 @@ export default function CapuchosGuidePage() {
           links={[
             { label: "Hidden Gems", href: "/sintra-hidden-gems", description: "More off-the-beaten-path spots" },
             { label: "Cabo da Roca", href: "/cabo-da-roca-guide", description: "15 min drive from Capuchos" },
-            { label: "UNESCO Heritage", href: "/sintra-unesco-world-heritage", description: "Capuchos is part of the Cultural Landscape" },
+            { label: "History & UNESCO Heritage", href: "/sintra-history-guide", description: "Capuchos is part of the Cultural Landscape" },
             { label: "Walking Routes", href: "/sintra-walking-routes", description: "Hiking trails near Capuchos" },
           ]}
         />

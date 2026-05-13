@@ -40,7 +40,7 @@ export default function DayBlock({
         ~{walkingKm} km walking
       </span>
 
-      <div className="mt-6 space-y-6 border-l border-calcario-300 ml-6 pl-6">
+      <div className="mt-6 space-y-6 border-l border-calcario-300 ml-2 pl-3 sm:ml-6 sm:pl-6">
         {children}
       </div>
     </section>

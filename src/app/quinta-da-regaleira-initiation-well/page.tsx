@@ -322,8 +322,8 @@ export default function InitiationWellPage() {
               description: "Best shots across all of Sintra",
             },
             {
-              label: "Sintra in Winter",
-              href: "/sintra-in-winter",
+              label: "Best Time to Visit",
+              href: "/best-time-to-visit-sintra#winter",
               description: "The well is Gothic in fog",
             },
           ]}

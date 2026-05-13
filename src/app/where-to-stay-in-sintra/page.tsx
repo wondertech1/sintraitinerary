@@ -209,7 +209,7 @@ export default function WhereToStayPage() {
         <RelatedGuides
           links={[
             { label: "Sintra on a Budget", href: "/sintra-on-a-budget", description: "Keep costs low with our budget guide" },
-            { label: "Getting to Sintra", href: "/getting-to-sintra-from-lisbon", description: "Train, bus & taxi options" },
+            { label: "Day Trip from Lisbon", href: "/lisbon-to-sintra-day-trip", description: "Train, bus & taxi options" },
             { label: "3-Day Itinerary", href: "/3-day-sintra-itinerary", description: "Worth staying overnight for this" },
             { label: "Where to Eat", href: "/where-to-eat-in-sintra", description: "Best restaurants near each area" },
           ]}
